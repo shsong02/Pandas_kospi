@@ -1,0 +1,943 @@
+Search kospi: 
+[code: 000030] 
+[code: 000050] 
+[code: 000060] O.K. Boxing period (Avg:15514, min:14738, max:16289, Non-match:0 Day 
+[code: 000070] 
+[code: 000087] O.K. Boxing period (Avg:18780, min:17841, max:19719, Non-match:0 Day 
+[code: 000120] O.K. Boxing period (Avg:209508, min:199032, max:219983, Non-match:4 Day 
+[code: 000180] O.K. Boxing period (Avg:3168, min:3009, max:3326, Non-match:6 Day 
+[code: 000210] 
+[code: 000215] O.K. Boxing period (Avg:28693, min:27258, max:30128, Non-match:4 Day 
+[code: 000230] 
+[code: 000370] O.K. Boxing period (Avg:6775, min:6436, max:7114, Non-match:6 Day 
+[code: 000400] O.K. Boxing period (Avg:2611, min:2481, max:2742, Non-match:0 Day 
+[code: 000430] 
+[code: 000480] O.K. Boxing period (Avg:86586, min:82257, max:90916, Non-match:4 Day 
+[code: 000490] O.K. Boxing period (Avg:7518, min:7142, max:7894, Non-match:4 Day 
+[code: 000500] 
+[code: 000590] 
+[code: 000660] 
+[code: 000680] O.K. Boxing period (Avg:3320, min:3154, max:3486, Non-match:0 Day 
+[code: 000720] 
+[code: 000760] 
+[code: 000810] O.K. Boxing period (Avg:277975, min:264076, max:291873, Non-match:2 Day 
+[code: 000880] 
+[code: 000885] 
+[code: 000910] O.K. Boxing period (Avg:4064, min:3861, max:4267, Non-match:4 Day 
+[code: 000990] 
+[code: 000995] 
+[code: 001040] 
+[code: 001067] 
+[code: 001070] 
+[code: 001130] O.K. Boxing period (Avg:177808, min:168917, max:186698, Non-match:2 Day 
+[code: 001230] 
+[code: 001250] 
+[code: 001270] O.K. Boxing period (Avg:19750, min:18762, max:20737, Non-match:0 Day 
+[code: 001340] O.K. Boxing period (Avg:1882, min:1788, max:1976, Non-match:6 Day 
+[code: 001390] O.K. Boxing period (Avg:14254, min:13541, max:14966, Non-match:0 Day 
+[code: 001430] O.K. Boxing period (Avg:25324, min:24057, max:26590, Non-match:4 Day 
+[code: 001450] 
+[code: 001520] 
+[code: 001525] 
+[code: 001529] 
+[code: 001530] O.K. Boxing period (Avg:60373, min:57354, max:63392, Non-match:0 Day 
+[code: 001560] O.K. Boxing period (Avg:6490, min:6165, max:6814, Non-match:4 Day 
+[code: 001740] 
+[code: 001745] 
+[code: 001750] O.K. Boxing period (Avg:7580, min:7201, max:7959, Non-match:0 Day 
+[code: 001770] 
+[code: 001780] 
+[code: 001790] O.K. Boxing period (Avg:24446, min:23224, max:25669, Non-match:1 Day 
+[code: 001820] 
+[code: 001880] 
+[code: 002100] 
+[code: 002140] 
+[code: 002200] 
+[code: 002220] 
+[code: 002240] O.K. Boxing period (Avg:38011, min:36111, max:39912, Non-match:1 Day 
+[code: 002270] 
+[code: 002300] O.K. Boxing period (Avg:28734, min:27297, max:30170, Non-match:0 Day 
+[code: 002320] 
+[code: 002360] 
+[code: 002380] 
+[code: 002410] 
+[code: 002630] 
+[code: 002690] 
+[code: 002760] 
+[code: 002787] 
+[code: 002790] 
+[code: 002795] O.K. Boxing period (Avg:67518, min:64142, max:70894, Non-match:4 Day 
+[code: 002840] 
+[code: 002920] O.K. Boxing period (Avg:4062, min:3859, max:4265, Non-match:1 Day 
+[code: 002995] 
+[code: 003010] 
+[code: 003030] 
+[code: 003080] O.K. Boxing period (Avg:6016, min:5715, max:6317, Non-match:4 Day 
+[code: 003120] O.K. Boxing period (Avg:113625, min:107943, max:119306, Non-match:0 Day 
+[code: 003160] 
+[code: 003200] O.K. Boxing period (Avg:127208, min:120847, max:133568, Non-match:2 Day 
+[code: 003220] 
+[code: 003230] 
+[code: 003240] 
+[code: 003300] 
+[code: 003410] 
+[code: 003415] 
+[code: 003450] O.K. Boxing period (Avg:7181, min:6822, max:7540, Non-match:5 Day 
+[code: 003470] 
+[code: 003480] 
+[code: 003540] O.K. Boxing period (Avg:10515, min:9990, max:11041, Non-match:0 Day 
+[code: 003545] O.K. Boxing period (Avg:7666, min:7283, max:8050, Non-match:0 Day 
+[code: 003560] 
+[code: 003570] 
+[code: 003580] 
+[code: 003610] O.K. Boxing period (Avg:23845, min:22652, max:25037, Non-match:2 Day 
+[code: 003620] 
+[code: 003720] 
+[code: 003920] O.K. Boxing period (Avg:696000, min:661200, max:730800, Non-match:0 Day 
+[code: 003960] 
+[code: 004020] O.K. Boxing period (Avg:50646, min:48114, max:53179, Non-match:5 Day 
+[code: 004060] 
+[code: 004090] O.K. Boxing period (Avg:108575, min:103146, max:114003, Non-match:6 Day 
+[code: 004140] 
+[code: 004170] 
+[code: 004200] 
+[code: 004270] 
+[code: 004380] 
+[code: 004410] 
+[code: 004415] 
+[code: 004430] 
+[code: 004440] 
+[code: 004545] 
+[code: 004560] 
+[code: 004565] 
+[code: 004700] 
+[code: 004800] 
+[code: 004890] O.K. Boxing period (Avg:71305, min:67739, max:74870, Non-match:4 Day 
+[code: 004920] 
+[code: 004990] 
+[code: 005010] O.K. Boxing period (Avg:14245, min:13533, max:14958, Non-match:5 Day 
+[code: 005070] 
+[code: 005180] 
+[code: 005300] O.K. Boxing period (Avg:1590083, min:1510579, max:1669587, Non-match:1 Day 
+[code: 005420] 
+[code: 005450] O.K. Boxing period (Avg:5110, min:4855, max:5366, Non-match:6 Day 
+[code: 005490] O.K. Boxing period (Avg:227233, min:215871, max:238595, Non-match:6 Day 
+[code: 005500] O.K. Boxing period (Avg:32368, min:30749, max:33986, Non-match:3 Day 
+[code: 005620] 
+[code: 005740] 
+[code: 005800] O.K. Boxing period (Avg:152108, min:144502, max:159713, Non-match:0 Day 
+[code: 005830] O.K. Boxing period (Avg:67215, min:63854, max:70575, Non-match:3 Day 
+[code: 005880] 
+[code: 005930] 
+[code: 005940] O.K. Boxing period (Avg:10191, min:9681, max:10701, Non-match:0 Day 
+[code: 005945] O.K. Boxing period (Avg:7045, min:6693, max:7398, Non-match:0 Day 
+[code: 005960] 
+[code: 005965] 
+[code: 006040] 
+[code: 006060] 
+[code: 006110] 
+[code: 006360] 
+[code: 006370] O.K. Boxing period (Avg:13305, min:12639, max:13970, Non-match:0 Day 
+[code: 006380] 
+[code: 006570] 
+[code: 006650] 
+[code: 006660] 
+[code: 006740] O.K. Boxing period (Avg:3062, min:2909, max:3215, Non-match:6 Day 
+[code: 006800] 
+[code: 006805] O.K. Boxing period (Avg:5758, min:5470, max:6046, Non-match:0 Day 
+[code: 006840] 
+[code: 006880] 
+[code: 006980] 
+[code: 007210] 
+[code: 007460] 
+[code: 007590] 
+[code: 007700] 
+[code: 008060] O.K. Boxing period (Avg:7759, min:7371, max:8146, Non-match:0 Day 
+[code: 008490] 
+[code: 008560] 
+[code: 008600] 
+[code: 008775] O.K. Boxing period (Avg:39338, min:37371, max:41305, Non-match:0 Day 
+[code: 009070] 
+[code: 009155] 
+[code: 009180] 
+[code: 009240] 
+[code: 009415] 
+[code: 009440] 
+[code: 009450] 
+[code: 009540] 
+[code: 009580] O.K. Boxing period (Avg:4197, min:3987, max:4407, Non-match:2 Day 
+[code: 009770] 
+[code: 009830] 
+[code: 009835] 
+[code: 009970] O.K. Boxing period (Avg:61090, min:58035, max:64144, Non-match:2 Day 
+[code: 010040] 
+[code: 010060] 
+[code: 010120] O.K. Boxing period (Avg:43156, min:40998, max:45314, Non-match:0 Day 
+[code: 010140] 
+[code: 010420] 
+[code: 010600] 
+[code: 010620] 
+[code: 010780] 
+[code: 010950] 
+[code: 010955] O.K. Boxing period (Avg:50040, min:47538, max:52542, Non-match:2 Day 
+[code: 010960] O.K. Boxing period (Avg:3508, min:3332, max:3683, Non-match:0 Day 
+[code: 011090] 
+[code: 011150] 
+[code: 011155] 
+[code: 011170] 
+[code: 011200] 
+[code: 011230] 
+[code: 011280] 
+[code: 011390] 
+[code: 011500] 
+[code: 011700] 
+[code: 011760] 
+[code: 011780] 
+[code: 011785] 
+[code: 011790] 
+[code: 011810] 
+[code: 011930] 
+[code: 012030] 
+[code: 012160] 
+[code: 012450] 
+[code: 012510] 
+[code: 012600] 
+[code: 012630] 
+[code: 012690] 
+[code: 013367] 
+[code: 013570] O.K. Boxing period (Avg:6396, min:6076, max:6716, Non-match:2 Day 
+[code: 013580] 
+[code: 014440] 
+[code: 014530] 
+[code: 014820] 
+[code: 014830] O.K. Boxing period (Avg:44545, min:42318, max:46773, Non-match:0 Day 
+[code: 014990] 
+[code: 015360] O.K. Boxing period (Avg:38665, min:36731, max:40598, Non-match:0 Day 
+[code: 015540] 
+[code: 016090] 
+[code: 016450] 
+[code: 016590] O.K. Boxing period (Avg:24069, min:22865, max:25272, Non-match:3 Day 
+[code: 016710] O.K. Boxing period (Avg:9286, min:8822, max:9750, Non-match:2 Day 
+[code: 016880] 
+[code: 017040] 
+[code: 017370] 
+[code: 017670] O.K. Boxing period (Avg:222525, min:211398, max:233651, Non-match:0 Day 
+[code: 017940] O.K. Boxing period (Avg:63783, min:60594, max:66972, Non-match:0 Day 
+[code: 018260] 
+[code: 019440] O.K. Boxing period (Avg:19001, min:18051, max:19951, Non-match:0 Day 
+[code: 019490] 
+[code: 019680] O.K. Boxing period (Avg:8397, min:7977, max:8817, Non-match:3 Day 
+[code: 019685] O.K. Boxing period (Avg:5191, min:4931, max:5450, Non-match:0 Day 
+[code: 020000] 
+[code: 020120] 
+[code: 020150] 
+[code: 020560] 
+[code: 020760] 
+[code: 021820] O.K. Boxing period (Avg:18980, min:18031, max:19929, Non-match:2 Day 
+[code: 021960] O.K. Boxing period (Avg:25610, min:24330, max:26891, Non-match:2 Day 
+[code: 023000] O.K. Boxing period (Avg:3660, min:3477, max:3843, Non-match:0 Day 
+[code: 023350] 
+[code: 023530] 
+[code: 023590] 
+[code: 023960] 
+[code: 024090] 
+[code: 024110] O.K. Boxing period (Avg:11935, min:11338, max:12531, Non-match:4 Day 
+[code: 025000] 
+[code: 025530] 
+[code: 025540] 
+[code: 025860] O.K. Boxing period (Avg:8618, min:8187, max:9049, Non-match:0 Day 
+[code: 025890] 
+[code: 026890] 
+[code: 026940] 
+[code: 028260] 
+[code: 02826K] 
+[code: 029530] O.K. Boxing period (Avg:50826, min:48285, max:53368, Non-match:0 Day 
+[code: 030000] 
+[code: 030200] O.K. Boxing period (Avg:31858, min:30265, max:33451, Non-match:0 Day 
+[code: 030210] 
+[code: 030790] 
+[code: 031430] 
+[code: 031440] 
+[code: 032560] 
+[code: 032640] O.K. Boxing period (Avg:11496, min:10921, max:12071, Non-match:2 Day 
+[code: 032830] 
+[code: 033180] 
+[code: 034120] 
+[code: 034220] 
+[code: 034300] 
+[code: 034730] 
+[code: 03473K] O.K. Boxing period (Avg:134775, min:128036, max:141513, Non-match:0 Day 
+[code: 034830] 
+[code: 035150] 
+[code: 036460] O.K. Boxing period (Avg:43341, min:41174, max:45508, Non-match:2 Day 
+[code: 036530] 
+[code: 036570] 
+[code: 037270] 
+[code: 037620] 
+[code: 039570] 
+[code: 044380] 
+[code: 047040] 
+[code: 047050] 
+[code: 047400] 
+[code: 051910] 
+[code: 051915] 
+[code: 053210] 
+[code: 055550] O.K. Boxing period (Avg:40817, min:38776, max:42858, Non-match:4 Day 
+[code: 058430] 
+[code: 058650] 
+[code: 058850] O.K. Boxing period (Avg:2552, min:2424, max:2680, Non-match:0 Day 
+[code: 066570] 
+[code: 067830] 
+[code: 068400] 
+[code: 069260] 
+[code: 069500] O.K. Boxing period (Avg:25542, min:24264, max:26819, Non-match:0 Day 
+[code: 069660] O.K. Boxing period (Avg:25653, min:24370, max:26935, Non-match:0 Day 
+[code: 069730] 
+[code: 069960] O.K. Boxing period (Avg:122475, min:116351, max:128598, Non-match:4 Day 
+[code: 071050] 
+[code: 071090] 
+[code: 071320] O.K. Boxing period (Avg:65791, min:62502, max:69081, Non-match:1 Day 
+[code: 071840] O.K. Boxing period (Avg:44671, min:42438, max:46905, Non-match:1 Day 
+[code: 071970] 
+[code: 077500] 
+[code: 077970] 
+[code: 078000] 
+[code: 078930] 
+[code: 078935] O.K. Boxing period (Avg:33539, min:31862, max:35216, Non-match:2 Day 
+[code: 079430] 
+[code: 079980] O.K. Boxing period (Avg:7724, min:7337, max:8110, Non-match:6 Day 
+[code: 081000] 
+[code: 081660] 
+[code: 082640] 
+[code: 083420] O.K. Boxing period (Avg:4088, min:3883, max:4292, Non-match:3 Day 
+[code: 084670] O.K. Boxing period (Avg:35911, min:34116, max:37707, Non-match:0 Day 
+[code: 084870] O.K. Boxing period (Avg:9451, min:8979, max:9924, Non-match:6 Day 
+[code: 085620] O.K. Boxing period (Avg:4347, min:4130, max:4565, Non-match:2 Day 
+[code: 086790] 
+[code: 088350] O.K. Boxing period (Avg:5799, min:5509, max:6088, Non-match:6 Day 
+[code: 088790] 
+[code: 088980] O.K. Boxing period (Avg:8828, min:8386, max:9269, Non-match:0 Day 
+[code: 089590] 
+[code: 091170] O.K. Boxing period (Avg:6470, min:6147, max:6794, Non-match:6 Day 
+[code: 091220] O.K. Boxing period (Avg:6585, min:6256, max:6914, Non-match:6 Day 
+[code: 092230] 
+[code: 092440] O.K. Boxing period (Avg:5566, min:5288, max:5844, Non-match:0 Day 
+[code: 093050] O.K. Boxing period (Avg:21826, min:20735, max:22918, Non-match:1 Day 
+[code: 093240] 
+[code: 093370] 
+[code: 094280] 
+[code: 094800] O.K. Boxing period (Avg:4298, min:4083, max:4513, Non-match:0 Day 
+[code: 095570] 
+[code: 096760] 
+[code: 096770] 
+[code: 096775] 
+[code: 100250] O.K. Boxing period (Avg:3607, min:3427, max:3788, Non-match:0 Day 
+[code: 101060] O.K. Boxing period (Avg:2912, min:2766, max:3057, Non-match:4 Day 
+[code: 101140] 
+[code: 102110] O.K. Boxing period (Avg:25571, min:24292, max:26849, Non-match:0 Day 
+[code: 102780] O.K. Boxing period (Avg:5246, min:4984, max:5509, Non-match:0 Day 
+[code: 102960] O.K. Boxing period (Avg:6320, min:6004, max:6636, Non-match:2 Day 
+[code: 102970] O.K. Boxing period (Avg:5797, min:5507, max:6087, Non-match:5 Day 
+[code: 103140] O.K. Boxing period (Avg:32660, min:31027, max:34293, Non-match:4 Day 
+[code: 105190] O.K. Boxing period (Avg:25582, min:24303, max:26862, Non-match:0 Day 
+[code: 105560] 
+[code: 105630] 
+[code: 108450] O.K. Boxing period (Avg:7331, min:6964, max:7697, Non-match:0 Day 
+[code: 108590] O.K. Boxing period (Avg:25911, min:24615, max:27206, Non-match:0 Day 
+[code: 109070] 
+[code: 112610] 
+[code: 114260] O.K. Boxing period (Avg:56142, min:53334, max:58949, Non-match:0 Day 
+[code: 114470] O.K. Boxing period (Avg:111907, min:106311, max:117502, Non-match:0 Day 
+[code: 114820] O.K. Boxing period (Avg:110713, min:105178, max:116249, Non-match:0 Day 
+[code: 115390] 
+[code: 117460] O.K. Boxing period (Avg:10091, min:9587, max:10596, Non-match:0 Day 
+[code: 117580] O.K. Boxing period (Avg:6414, min:6093, max:6734, Non-match:1 Day 
+[code: 117700] O.K. Boxing period (Avg:2937, min:2790, max:3084, Non-match:4 Day 
+[code: 117930] 
+[code: 119650] 
+[code: 120030] 
+[code: 122090] O.K. Boxing period (Avg:16511, min:15685, max:17336, Non-match:0 Day 
+[code: 122260] O.K. Boxing period (Avg:101697, min:96612, max:106782, Non-match:0 Day 
+[code: 122630] O.K. Boxing period (Avg:10870, min:10327, max:11414, Non-match:1 Day 
+[code: 122900] O.K. Boxing period (Avg:13089, min:12434, max:13743, Non-match:3 Day 
+[code: 123320] O.K. Boxing period (Avg:9834, min:9342, max:10326, Non-match:1 Day 
+[code: 123690] 
+[code: 123760] O.K. Boxing period (Avg:9800, min:9310, max:10290, Non-match:0 Day 
+[code: 123890] 
+[code: 126560] O.K. Boxing period (Avg:3710, min:3524, max:3896, Non-match:4 Day 
+[code: 128820] 
+[code: 129260] O.K. Boxing period (Avg:3056, min:2903, max:3208, Non-match:6 Day 
+[code: 130680] 
+[code: 130730] O.K. Boxing period (Avg:101565, min:96487, max:106643, Non-match:0 Day 
+[code: 134380] O.K. Boxing period (Avg:71010, min:67459, max:74560, Non-match:3 Day 
+[code: 134790] 
+[code: 137610] O.K. Boxing period (Avg:6234, min:5922, max:6546, Non-match:0 Day 
+[code: 138230] O.K. Boxing period (Avg:11462, min:10889, max:12035, Non-match:0 Day 
+[code: 138250] 
+[code: 138930] O.K. Boxing period (Avg:8803, min:8363, max:9243, Non-match:3 Day 
+[code: 139130] O.K. Boxing period (Avg:9114, min:8658, max:9569, Non-match:2 Day 
+[code: 139250] O.K. Boxing period (Avg:11525, min:10948, max:12101, Non-match:0 Day 
+[code: 139260] O.K. Boxing period (Avg:15142, min:14385, max:15899, Non-match:5 Day 
+[code: 139480] O.K. Boxing period (Avg:159891, min:151897, max:167886, Non-match:1 Day 
+[code: 140700] O.K. Boxing period (Avg:8357, min:7939, max:8775, Non-match:0 Day 
+[code: 143460] O.K. Boxing period (Avg:6092, min:5787, max:6397, Non-match:0 Day 
+[code: 144620] O.K. Boxing period (Avg:8819, min:8378, max:9260, Non-match:0 Day 
+[code: 145270] 
+[code: 145990] 
+[code: 148020] O.K. Boxing period (Avg:25670, min:24386, max:26953, Non-match:0 Day 
+[code: 152100] O.K. Boxing period (Avg:25673, min:24389, max:26957, Non-match:0 Day 
+[code: 152500] O.K. Boxing period (Avg:4183, min:3974, max:4392, Non-match:0 Day 
+[code: 152550] O.K. Boxing period (Avg:1990, min:1891, max:2090, Non-match:0 Day 
+[code: 152870] O.K. Boxing period (Avg:25920, min:24624, max:27216, Non-match:0 Day 
+[code: 153130] O.K. Boxing period (Avg:101019, min:95968, max:106070, Non-match:0 Day 
+[code: 155660] O.K. Boxing period (Avg:4483, min:4259, max:4707, Non-match:3 Day 
+[code: 157450] O.K. Boxing period (Avg:100998, min:95948, max:106048, Non-match:0 Day 
+[code: 161000] 
+[code: 161510] O.K. Boxing period (Avg:11652, min:11070, max:12235, Non-match:0 Day 
+[code: 168580] O.K. Boxing period (Avg:18090, min:17186, max:18995, Non-match:0 Day 
+[code: 169950] O.K. Boxing period (Avg:12300, min:11685, max:12915, Non-match:0 Day 
+[code: 174350] O.K. Boxing period (Avg:12356, min:11738, max:12973, Non-match:0 Day 
+[code: 174360] O.K. Boxing period (Avg:11803, min:11213, max:12394, Non-match:0 Day 
+[code: 175330] O.K. Boxing period (Avg:5930, min:5634, max:6227, Non-match:0 Day 
+[code: 183190] 
+[code: 183700] O.K. Boxing period (Avg:52551, min:49923, max:55178, Non-match:0 Day 
+[code: 190160] O.K. Boxing period (Avg:105750, min:100462, max:111037, Non-match:0 Day 
+[code: 190620] O.K. Boxing period (Avg:101019, min:95968, max:106070, Non-match:0 Day 
+[code: 192090] O.K. Boxing period (Avg:7083, min:6729, max:7437, Non-match:0 Day 
+[code: 192400] 
+[code: 192530] O.K. Boxing period (Avg:9535, min:9058, max:10012, Non-match:1 Day 
+[code: 195920] O.K. Boxing period (Avg:11165, min:10606, max:11723, Non-match:0 Day 
+[code: 195930] O.K. Boxing period (Avg:9761, min:9273, max:10249, Non-match:0 Day 
+[code: 196030] 
+[code: 196220] 
+[code: 204210] 
+[code: 204480] 
+[code: 210540] 
+[code: 210780] O.K. Boxing period (Avg:11624, min:11043, max:12206, Non-match:0 Day 
+[code: 213610] O.K. Boxing period (Avg:5702, min:5417, max:5987, Non-match:0 Day 
+[code: 214980] O.K. Boxing period (Avg:101112, min:96056, max:106167, Non-match:0 Day 
+[code: 219390] 
+[code: 219900] 
+[code: 223190] O.K. Boxing period (Avg:7202, min:6842, max:7563, Non-match:0 Day 
+[code: 225030] O.K. Boxing period (Avg:9220, min:8759, max:9681, Non-match:0 Day 
+[code: 225800] O.K. Boxing period (Avg:8609, min:8179, max:9039, Non-match:0 Day 
+[code: 226490] O.K. Boxing period (Avg:20353, min:19335, max:21370, Non-match:0 Day 
+[code: 227830] O.K. Boxing period (Avg:20525, min:19499, max:21552, Non-match:0 Day 
+[code: 229640] 
+[code: 232590] 
+[code: 234310] O.K. Boxing period (Avg:10291, min:9777, max:10806, Non-match:0 Day 
+[code: 238720] O.K. Boxing period (Avg:10373, min:9854, max:10892, Non-match:0 Day 
+[code: 241180] O.K. Boxing period (Avg:10480, min:9956, max:11004, Non-match:0 Day 
+[code: 243880] 
+[code: 244660] 
+[code: 244670] O.K. Boxing period (Avg:9447, min:8974, max:9919, Non-match:0 Day 
+[code: 245710] O.K. Boxing period (Avg:10043, min:9541, max:10545, Non-match:2 Day 
+[code: 247800] O.K. Boxing period (Avg:10248, min:9736, max:10760, Non-match:0 Day 
+[code: 248260] O.K. Boxing period (Avg:9290, min:8825, max:9754, Non-match:4 Day 
+[code: 250780] 
+[code: 251340] 
+[code: 251350] 
+[code: 251590] 
+[code: 252400] 
+[code: 252420] 
+[code: 252670] 
+[code: 252710] 
+[code: 253230] 
+[code: 253250] 
+[code: 500013] O.K. Boxing period (Avg:8212, min:7801, max:8623, Non-match:6 Day 
+[code: 500015] 
+[code: 500019] 
+[code: 530003] 
+[code: 530009] O.K. Boxing period (Avg:7138, min:6781, max:7495, Non-match:3 Day 
+[code: 530011] O.K. Boxing period (Avg:7555, min:7177, max:7933, Non-match:4 Day 
+[code: 530012] 
+[code: 530013] O.K. Boxing period (Avg:10442, min:9919, max:10964, Non-match:0 Day 
+[code: 550001] 
+[code: 550003] O.K. Boxing period (Avg:11569, min:10990, max:12147, Non-match:0 Day 
+[code: 550013] O.K. Boxing period (Avg:10658, min:10125, max:11190, Non-match:4 Day 
+[code: 550026] O.K. Boxing period (Avg:10321, min:9805, max:10837, Non-match:0 Day 
+[code: 570012] O.K. Boxing period (Avg:9878, min:9384, max:10372, Non-match:0 Day 
+[code: 570006] 
+[code: 590011] O.K. Boxing period (Avg:9559, min:9081, max:10037, Non-match:0 Day 
+Search kosdak: 
+[code: 900090] 
+[code: 900110] 
+[code: 900130] 
+[code: 900270] 
+[code: 000250] 
+[code: 001000] 
+[code: 001810] 
+[code: 003670] O.K. Boxing period (Avg:11375, min:10806, max:11943, Non-match:6 Day 
+[code: 004590] 
+[code: 004780] O.K. Boxing period (Avg:7105, min:6750, max:7461, Non-match:4 Day 
+[code: 005290] 
+[code: 005670] 
+[code: 006140] 
+[code: 006730] 
+[code: 007720] 
+[code: 007770] 
+[code: 007820] 
+[code: 008370] 
+[code: 008470] O.K. Boxing period (Avg:6044, min:5741, max:6346, Non-match:1 Day 
+[code: 008800] 
+[code: 009520] 
+[code: 009620] 
+[code: 009730] 
+[code: 010280] 
+[code: 011370] 
+[code: 012340] 
+[code: 012620] O.K. Boxing period (Avg:11668, min:11084, max:12251, Non-match:1 Day 
+[code: 012860] O.K. Boxing period (Avg:3301, min:3136, max:3466, Non-match:3 Day 
+[code: 013030] 
+[code: 013120] O.K. Boxing period (Avg:4797, min:4557, max:5037, Non-match:1 Day 
+[code: 013310] 
+[code: 013720] 
+[code: 014620] 
+[code: 014940] 
+[code: 014970] 
+[code: 016250] 
+[code: 017000] 
+[code: 017480] O.K. Boxing period (Avg:4269, min:4056, max:4483, Non-match:0 Day 
+[code: 017650] 
+[code: 017680] 
+[code: 017890] 
+[code: 018120] O.K. Boxing period (Avg:32551, min:30924, max:34179, Non-match:0 Day 
+[code: 018290] 
+[code: 019010] 
+[code: 019990] 
+[code: 021320] 
+[code: 021650] 
+[code: 022100] 
+[code: 022220] 
+[code: 023160] O.K. Boxing period (Avg:8502, min:8077, max:8927, Non-match:0 Day 
+[code: 023460] 
+[code: 023600] 
+[code: 023900] 
+[code: 023910] 
+[code: 024060] 
+[code: 024740] O.K. Boxing period (Avg:3230, min:3068, max:3391, Non-match:3 Day 
+[code: 024880] 
+[code: 024940] O.K. Boxing period (Avg:3431, min:3260, max:3603, Non-match:4 Day 
+[code: 024950] 
+[code: 025320] 
+[code: 025440] 
+[code: 025870] 
+[code: 025880] 
+[code: 025900] 
+[code: 025980] 
+[code: 026180] 
+[code: 026260] 
+[code: 028080] O.K. Boxing period (Avg:7511, min:7135, max:7886, Non-match:0 Day 
+[code: 028150] 
+[code: 028300] 
+[code: 029960] 
+[code: 030190] 
+[code: 030520] 
+[code: 030960] 
+[code: 031330] 
+[code: 031390] 
+[code: 031860] 
+[code: 031980] 
+[code: 032280] 
+[code: 032500] 
+[code: 032540] O.K. Boxing period (Avg:3894, min:3699, max:4089, Non-match:4 Day 
+[code: 032750] O.K. Boxing period (Avg:7894, min:7500, max:8289, Non-match:4 Day 
+[code: 032800] 
+[code: 032940] 
+[code: 033050] 
+[code: 033100] 
+[code: 033170] 
+[code: 033500] 
+[code: 033540] 
+[code: 033560] 
+[code: 033640] 
+[code: 033790] 
+[code: 034810] 
+[code: 034950] O.K. Boxing period (Avg:40655, min:38622, max:42687, Non-match:3 Day 
+[code: 035080] 
+[code: 035200] 
+[code: 035460] 
+[code: 035480] 
+[code: 035600] 
+[code: 035610] 
+[code: 035620] 
+[code: 035760] O.K. Boxing period (Avg:160316, min:152300, max:168332, Non-match:0 Day 
+[code: 035900] 
+[code: 036260] 
+[code: 036490] 
+[code: 036560] O.K. Boxing period (Avg:8569, min:8140, max:8997, Non-match:0 Day 
+[code: 036710] 
+[code: 036800] 
+[code: 037070] 
+[code: 037230] 
+[code: 037330] 
+[code: 037350] 
+[code: 037440] 
+[code: 037460] 
+[code: 037760] 
+[code: 038070] 
+[code: 038160] 
+[code: 038290] 
+[code: 038340] 
+[code: 038390] O.K. Boxing period (Avg:17738, min:16851, max:18625, Non-match:0 Day 
+[code: 038530] 
+[code: 038620] 
+[code: 038680] 
+[code: 038950] 
+[code: 039020] 
+[code: 039230] 
+[code: 039290] 
+[code: 039340] 
+[code: 039420] 
+[code: 039440] 
+[code: 039740] 
+[code: 039830] 
+[code: 039860] 
+[code: 040160] O.K. Boxing period (Avg:10539, min:10012, max:11065, Non-match:5 Day 
+[code: 040420] 
+[code: 040610] 
+[code: 040910] 
+[code: 041140] 
+[code: 041190] 
+[code: 041960] 
+[code: 042110] O.K. Boxing period (Avg:1975, min:1876, max:2073, Non-match:0 Day 
+[code: 042370] 
+[code: 042420] 
+[code: 042500] 
+[code: 042600] 
+[code: 042940] 
+[code: 043090] 
+[code: 043200] 
+[code: 043290] 
+[code: 043650] O.K. Boxing period (Avg:6995, min:6646, max:7345, Non-match:0 Day 
+[code: 043910] 
+[code: 044340] 
+[code: 044490] 
+[code: 044780] 
+[code: 045060] O.K. Boxing period (Avg:4918, min:4672, max:5164, Non-match:6 Day 
+[code: 045100] 
+[code: 045520] O.K. Boxing period (Avg:6306, min:5991, max:6621, Non-match:4 Day 
+[code: 045970] 
+[code: 046070] O.K. Boxing period (Avg:3735, min:3548, max:3922, Non-match:4 Day 
+[code: 046110] 
+[code: 046120] 
+[code: 046140] 
+[code: 046390] 
+[code: 047440] 
+[code: 048260] 
+[code: 048470] 
+[code: 048550] 
+[code: 048770] 
+[code: 048910] 
+[code: 049070] 
+[code: 049430] 
+[code: 049550] 
+[code: 049720] 
+[code: 049830] 
+[code: 049950] 
+[code: 050120] O.K. Boxing period (Avg:1922, min:1826, max:2018, Non-match:6 Day 
+[code: 050320] 
+[code: 050760] 
+[code: 050860] 
+[code: 051170] 
+[code: 051370] 
+[code: 051380] 
+[code: 051390] O.K. Boxing period (Avg:3911, min:3716, max:4107, Non-match:6 Day 
+[code: 051490] 
+[code: 052220] 
+[code: 052270] 
+[code: 052290] 
+[code: 052330] 
+[code: 052420] 
+[code: 052710] 
+[code: 052860] 
+[code: 053050] O.K. Boxing period (Avg:2130, min:2023, max:2236, Non-match:2 Day 
+[code: 053160] 
+[code: 053590] 
+[code: 053620] 
+[code: 053660] 
+[code: 053700] O.K. Boxing period (Avg:8870, min:8427, max:9314, Non-match:0 Day 
+[code: 054040] 
+[code: 054090] 
+[code: 054300] 
+[code: 054340] O.K. Boxing period (Avg:1327, min:1260, max:1393, Non-match:5 Day 
+[code: 054620] 
+[code: 054630] 
+[code: 054670] 
+[code: 054920] 
+[code: 054930] 
+[code: 056080] 
+[code: 056190] 
+[code: 056360] 
+[code: 057030] 
+[code: 057500] 
+[code: 057540] 
+[code: 058220] 
+[code: 058370] 
+[code: 059090] 
+[code: 059120] 
+[code: 059210] 
+[code: 060150] 
+[code: 060240] 
+[code: 060380] 
+[code: 060540] 
+[code: 060560] 
+[code: 060720] 
+[code: 061460] 
+[code: 063170] 
+[code: 063440] 
+[code: 064290] 
+[code: 064520] 
+[code: 064760] 
+[code: 064800] 
+[code: 065150] 
+[code: 065160] 
+[code: 065450] 
+[code: 065530] 
+[code: 065570] 
+[code: 065710] O.K. Boxing period (Avg:12274, min:11660, max:12887, Non-match:4 Day 
+[code: 065770] 
+[code: 065950] 
+[code: 066130] 
+[code: 066310] 
+[code: 066410] 
+[code: 066590] 
+[code: 066670] 
+[code: 066910] 
+[code: 066980] 
+[code: 067010] O.K. Boxing period (Avg:6418, min:6097, max:6739, Non-match:0 Day 
+[code: 067170] 
+[code: 067280] 
+[code: 067390] 
+[code: 067570] 
+[code: 067630] 
+[code: 067730] 
+[code: 067770] 
+[code: 067900] 
+[code: 067920] O.K. Boxing period (Avg:4578, min:4349, max:4807, Non-match:2 Day 
+[code: 067990] 
+[code: 068050] 
+[code: 068330] 
+[code: 068930] 
+[code: 069330] 
+[code: 069410] 
+[code: 069920] 
+[code: 071670] 
+[code: 072520] 
+[code: 073010] 
+[code: 073110] 
+[code: 073560] 
+[code: 073640] 
+[code: 075970] 
+[code: 076080] 
+[code: 077280] 
+[code: 077360] 
+[code: 078070] 
+[code: 078150] 
+[code: 078590] 
+[code: 078890] 
+[code: 079000] O.K. Boxing period (Avg:8805, min:8365, max:9245, Non-match:0 Day 
+[code: 079170] 
+[code: 079650] 
+[code: 079810] 
+[code: 079940] O.K. Boxing period (Avg:6194, min:5885, max:6504, Non-match:1 Day 
+[code: 079950] 
+[code: 079960] O.K. Boxing period (Avg:13773, min:13084, max:14462, Non-match:2 Day 
+[code: 079970] 
+[code: 080000] 
+[code: 080010] 
+[code: 080160] O.K. Boxing period (Avg:27900, min:26505, max:29295, Non-match:5 Day 
+[code: 080470] 
+[code: 080530] 
+[code: 081150] 
+[code: 081970] 
+[code: 082660] 
+[code: 083470] 
+[code: 083550] 
+[code: 083650] 
+[code: 084180] 
+[code: 084730] 
+[code: 086390] 
+[code: 086520] 
+[code: 086980] 
+[code: 087010] 
+[code: 087220] 
+[code: 087600] 
+[code: 088290] 
+[code: 088910] 
+[code: 089140] 
+[code: 089150] 
+[code: 089230] 
+[code: 089600] 
+[code: 089850] 
+[code: 089980] O.K. Boxing period (Avg:10988, min:10438, max:11537, Non-match:6 Day 
+[code: 090150] 
+[code: 090360] 
+[code: 090410] 
+[code: 090460] 
+[code: 090470] 
+[code: 090710] 
+[code: 090730] 
+[code: 090850] 
+[code: 091340] 
+[code: 091580] 
+[code: 092070] 
+[code: 092300] 
+[code: 092460] 
+[code: 092600] 
+[code: 092870] 
+[code: 093320] O.K. Boxing period (Avg:15575, min:14796, max:16353, Non-match:4 Day 
+[code: 094820] O.K. Boxing period (Avg:5015, min:4764, max:5266, Non-match:0 Day 
+[code: 094840] 
+[code: 094850] 
+[code: 094860] 
+[code: 094970] 
+[code: 095190] 
+[code: 095500] 
+[code: 095610] 
+[code: 095910] 
+[code: 096530] 
+[code: 096610] 
+[code: 098460] O.K. Boxing period (Avg:44995, min:42746, max:47245, Non-match:1 Day 
+[code: 098660] 
+[code: 099220] 
+[code: 099410] 
+[code: 099440] 
+[code: 099660] 
+[code: 100120] 
+[code: 100130] 
+[code: 100660] 
+[code: 101000] 
+[code: 101160] 
+[code: 101170] 
+[code: 101680] 
+[code: 101730] 
+[code: 101930] O.K. Boxing period (Avg:4822, min:4581, max:5063, Non-match:0 Day 
+[code: 102210] O.K. Boxing period (Avg:5757, min:5469, max:6045, Non-match:0 Day 
+[code: 102710] 
+[code: 103230] 
+[code: 104040] 
+[code: 104200] 
+[code: 104460] O.K. Boxing period (Avg:5614, min:5333, max:5894, Non-match:4 Day 
+[code: 104480] O.K. Boxing period (Avg:2165, min:2057, max:2273, Non-match:2 Day 
+[code: 104830] 
+[code: 105550] 
+[code: 105740] 
+[code: 109610] 
+[code: 109860] O.K. Boxing period (Avg:9591, min:9112, max:10071, Non-match:2 Day 
+[code: 111820] 
+[code: 114630] 
+[code: 115160] O.K. Boxing period (Avg:14160, min:13452, max:14868, Non-match:5 Day 
+[code: 115310] O.K. Boxing period (Avg:26339, min:25022, max:27656, Non-match:0 Day 
+[code: 115440] 
+[code: 115500] 
+[code: 115960] 
+[code: 119830] 
+[code: 119850] 
+[code: 121440] 
+[code: 121600] 
+[code: 121800] 
+[code: 122350] 
+[code: 122450] 
+[code: 122640] 
+[code: 122800] 
+[code: 122990] 
+[code: 123100] 
+[code: 123410] 
+[code: 123860] 
+[code: 126640] O.K. Boxing period (Avg:1779, min:1690, max:1867, Non-match:5 Day 
+[code: 128660] 
+[code: 130740] 
+[code: 130960] 
+[code: 131090] 
+[code: 131100] 
+[code: 131180] 
+[code: 131220] 
+[code: 131290] 
+[code: 131370] 
+[code: 131390] 
+[code: 131970] 
+[code: 133750] 
+[code: 134580] 
+[code: 134780] 
+[code: 136480] 
+[code: 136510] 
+[code: 137400] 
+[code: 137940] 
+[code: 137950] 
+[code: 138080] 
+[code: 138360] 
+[code: 139050] 
+[code: 139670] 
+[code: 141020] 
+[code: 142210] 
+[code: 143240] 
+[code: 143540] 
+[code: 148250] 
+[code: 149950] 
+[code: 150900] 
+[code: 151860] 
+[code: 153490] 
+[code: 154040] 
+[code: 155960] 
+[code: 158310] 
+[code: 159580] 
+[code: 159910] 
+[code: 160550] 
+[code: 160980] 
+[code: 161570] 
+[code: 168330] O.K. Boxing period (Avg:17622, min:16741, max:18503, Non-match:2 Day 
+[code: 170030] 
+[code: 171010] 
+[code: 174880] 
+[code: 175140] 
+[code: 177830] 
+[code: 178780] 
+[code: 178920] 
+[code: 180400] 
+[code: 182690] 
+[code: 184230] 
+[code: 187270] 
+[code: 187420] 
+[code: 187790] 
+[code: 189860] 
+[code: 191410] 
+[code: 192080] 
+[code: 192250] 
+[code: 195990] 
+[code: 196490] 
+[code: 196700] 
+[code: 197210] 
+[code: 200470] 
+[code: 200670] 
+[code: 200710] 
+[code: 206560] 
+[code: 207760] 
+[code: 208140] 
+[code: 208640] 
+[code: 208710] 
+[code: 208870] 
+[code: 211270] 
+[code: 213420] 
+[code: 214180] 
+[code: 214870] O.K. Boxing period (Avg:5448, min:5175, max:5720, Non-match:6 Day 
+[code: 217820] 
+[code: 219130] 
+[code: 222040] 
+[code: 222080] 
+[code: 222390] O.K. Boxing period (Avg:2056, min:1953, max:2159, Non-match:0 Day 
+[code: 222800] 
+[code: 222810] 
+[code: 223310] 
+[code: 224060] 
+[code: 224110] 
+[code: 225330] 
+[code: 225530] 
+[code: 226350] 
+[code: 228340] 
+[code: 234920] 
+[code: 236200] 
+[code: 237750] 
+[code: 240540] O.K. Boxing period (Avg:2037, min:1935, max:2139, Non-match:1 Day 
+[code: 241690] 
+[code: 950110] 

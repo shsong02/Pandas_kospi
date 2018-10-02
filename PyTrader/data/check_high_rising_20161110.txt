@@ -1,0 +1,13 @@
+ code:002140 | O | O | O | O | O | O | O | O || ok_rslt0 | ok_rslt1 |
+ code:004720 | O | O | O | X | O | O | O | O || ok_rslt0 | ........ |
+ code:009830 | O | O | O | O | O | O | O | O || ok_rslt0 | ok_rslt1 |
+ code:017670 | O | O | O | X | O | O | O | O || ok_rslt0 | ........ |
+ code:032640 | O | O | O | X | O | O | O | O || ok_rslt0 | ........ |
+ code:036460 | O | O | O | X | O | O | O | O || ok_rslt0 | ........ |
+ code:051910 | O | O | O | X | O | O | O | O || ok_rslt0 | ........ |
+ code:088980 | O | O | O | O | O | O | O | O || ok_rslt0 | ok_rslt1 |
+ code:118000 | O | O | O | X | O | O | O | O || ok_rslt0 | ........ |
+ code:002290 | O | O | O | O | O | O | O | O || ok_rslt0 | ok_rslt1 |
+ code:016670 | O | O | O | O | O | O | O | O || ok_rslt0 | ok_rslt1 |
+ code:018700 | O | O | O | X | O | O | O | O || ok_rslt0 | ........ |
+ code:020180 | O | O | O | O | O | O | O | O || ok_rslt0 | ok_rslt1 |

@@ -1,0 +1,134 @@
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=001270, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=001270, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=002760, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=002760, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=008560, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=008560, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=009440, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=009440, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=009830, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=009830, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=014440, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=014440, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=016090, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=016090, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=029530, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=029530, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=104530, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=104530, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=018290, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=018290, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=023900, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=023900, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=039340, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=039340, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=042940, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=042940, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=051390, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=051390, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=053660, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=053660, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=054670, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=054670, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=056190, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=056190, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=056360, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=056360, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=065160, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=065160, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=065530, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=065530, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=069330, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=069330, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=079650, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=079650, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=080530, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=080530, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=087220, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=087220, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=104040, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=104040, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=114630, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=114630, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> 0,		 err_type -> OP_ERR_NONE
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=131970, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=131970, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=150900, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=150900, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=171010, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=171010, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=177830, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=177830, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=197210, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=197210, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=203650, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=203650, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Buy....
+[20161018 01:04:58]	(buy) account=8082978711, code=208870, num=10, price=0, hoga=시장가
+[20161018 01:04:58]	(buy) account=8082978711, code=208870, num=10, price=0, hoga=시장가
+Sendorder result : err_value -> -308, "no_error_type" 
+[20161018 01:04:58] Start Sell....
+[20161018 01:04:58] Start Sell....
