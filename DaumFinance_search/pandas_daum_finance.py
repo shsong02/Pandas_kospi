@@ -73,7 +73,7 @@ try:
     sql = '''CREATE TABLE IF NOT EXISTS companyList(
         id      INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, 
         mgroup  VARCHAR(20) NOT NULL, 
-        mcode   INT(11) NOT NULL,  
+        mcode   char(6) NOT NULL,  
         mname   VARCHAR(200) NOT NULL)
         '''
     cur.execute(sql)
@@ -117,9 +117,8 @@ def download_stock_codes(market=None, delisted=False):
 kospi_stocks = download_stock_codes('kospi')
 kosdaq_stocks = download_stock_codes('kosdaq')
 
-print(kospi_stocks['mname'].head(5))
+print(kospi_stocks.head(5))
 kospi_stocks['mname'] = kospi_stocks['mname'].str.replace(" ", "")
-print(kospi_stocks['mname'].head(5))
 
 ###  3-2) KOSPI & KOSDAK 를 Database 에 저장하기
 
@@ -129,11 +128,15 @@ engine = create_engine("mysql+pymysql://root:"+"songsong"+"@localhost/systrading
 #if_exists='fail' 옵션이 있으면, 기존 테이블이 있을 경우, 아무일도 하지 않음
 try:
     kospi_stocks.to_sql (name='companyList', con=engine, if_exists='append', index=False)
+    sql = "UPDATE companyList SET 'mcode'=LPAD('mcode',5,'0')"
+    cur.execute(sql).fetchall()
 except:
     print("이미 companyList Table 에 kospi 종목을 추가하였습니다. \n ")
 
 try:
     kosdaq_stocks.to_sql(name='companyList', con=engine, if_exists='append', index=False)
+    sql = "UPDATE companyList SET 'mcode'=LPAD('mcode',5,'0')"
+    cur.execute(sql).fetchall()
 except:
     print("이미 companyList Table 에 kosdaq 종목을 추가하였습니다. \n ")
 
@@ -148,12 +151,11 @@ try:
         id      INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, 
         mcode   INT(11) NOT NULL,  
         cdate    DATE NOT NULL, 
-        ctime    TIME NOT NULL, 
         cdiff    INT(20),
         copen    INT(20),
         chigh    INT(20),
         clow     INT(20),
-        cend     INT(20),
+        cclose   INT(20),
         cvolume  INT(20), 
         foreign_buy INT(20),
         foreign_shareholding FLOAT(20),
@@ -176,7 +178,7 @@ except:
 # 네이버 금융(http://finance.naver.com)에 넣어줌
 def save_db(item_code, code_df):
     ##code = code_df.query("mname=='{}'".format(item_name))['mcode'].to_string(index=False)
-    url = 'http://finance.naver.com/item/sise_day.nhn?code={code}'.format(code=item_code)
+    url = 'https://finance.naver.com/item/sise_day.nhn?code={code}'.format(code=item_code)
     ##url = 'http://finance.naver.com/item/sise_day.nhn?code={code}'.format(code=code)
     ##url = 'http://finance.daum.net/item/news.daum?code={code}'.format(code=code)
 
@@ -187,6 +189,7 @@ def save_db(item_code, code_df):
     # 1페이지에서 20페이지의 데이터만 가져오기
     for page in range(1, 43):
         pg_url = '{url}&page={page}'.format(url=url, page=page)
+        #print(pg_url)
         df = df.append(pd.read_html(pg_url, header=0)[0], ignore_index=True)
 
     # df.dropna()를 이용해 결측값 있는 행 제거
@@ -209,28 +212,37 @@ def save_db(item_code, code_df):
 
     # code 삽입
     df['mcode']=item_code
+    print(df)
 
-    try:
-        df.to_sql(name='transactionSummary', con=engine, if_exists='append', index=False)
-    except :
-        print ("%s 의 주가 정보는 이미 존재합니다. \n" %(item_code))
-        f_log.write("%s 의 주가 정보는 이미 존재합니다. \n" %(item_code))
+    df.to_sql(name='transactionSummary', con=engine, if_exists='append', index=False)
+    ## try:
+    ##     df.to_sql(name='transactionSummary', con=engine, if_exists='append', index=False)
+    ## except :
+    ##     print ("%s 의 주가 정보는 이미 존재합니다. \n" %(item_code))
+    ##     f_log.write("%s 의 주가 정보는 이미 존재합니다. \n" %(item_code))
 
     return url, item_code
     #return url, code
 
 ## 종목코드를 전부 읽어서 주가 거래 내용을 DB 에 저장
 sql = '''SELECT mcode FROM companyList WHERE mgroup='kospi' '''
-## sql = '''SELECT mname FROM companyList WHERE mgroup='kospi' '''
 cur.execute(sql)
 rslt = cur.fetchall()
 
+
 f_log.write("kospi 주가 정보를 DB에 저장합니다.\n")
+test = 0
 for item_code in rslt:
-    sql = 'SELECT * from companyList where mcode=%s'
-    item_name = cur.execute(sql, 'item_code')
+    item_code = item_code[0]
+    test += 1
+    sql = 'SELECT mname from companyList where mcode=%s'
+    item_name = cur.execute(sql, item_code)
+    #item_name = cur.execute(sql, (item_code, ))
+    print(item_name)
     f_log.write("%s 의 DB 입력을 시작합니다.\n" %item_name)
     url, mcode = save_db(item_code, kospi_stocks)
+    ## if test == 2 :
+    ##    exit()
 
 
 
@@ -333,7 +345,7 @@ layout = dict( title='{}의 종가(close) Time Series'.format(item_name),
 
 
 fig =go.Figure(data=data, layout=layout)
-plt.plot(df['close'])
+plt.plot(df['cclose'])
 plt.show()
 
 ##offline.iplot(fig)
