@@ -1,0 +1,1648 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   공매도 종합 포털 | 공매도 통계 | 공매도 종합 현황 | 종목별 공매도 종합 현황
+  </title>
+  <script>
+   var getContextPath = function () {
+	return '';
+};
+var getSiteName = function () {
+	return 'SRT';
+};
+var getDevice = function () {
+	return 'pc';
+};
+
+var getLang = function () {
+	return $('html').attr('lang');
+};
+
+var getFileServer = function () {
+	return 'http://file.krx.co.kr';
+};
+
+var getPdfServer = function () {
+	return 'http://pdf.krx.co.kr';
+};
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-80353130-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <!--[if lt IE 9]>
+<script>
+document.createElement('aricle');
+document.createElement('aside');
+document.createElement('canvas');
+document.createElement('details');
+document.createElement('figcaption');
+document.createElement('figure');
+document.createElement('footer');
+document.createElement('header');
+document.createElement('hgroup');
+document.createElement('menu');
+document.createElement('nav');
+document.createElement('section');
+document.createElement('summary');
+</script>
+<![endif]-->
+  <link href="/res/pc/img/favicon.ico" rel="shortcut icon"/>
+  <link href="/WEB-APP/jquery/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css">
+   <link href="/res/pc/css/default.css" rel="stylesheet" type="text/css"/>
+   <link href="/templets/pc/css/templet.css" rel="stylesheet" type="text/css"/>
+   <link href="/templets/pc/css/gnb-gap.css" rel="stylesheet" type="text/css"/>
+   <link href="/res/pc/css/func.css" rel="stylesheet" type="text/css"/>
+   <link href="/res/pc/css/design.css" rel="stylesheet" type="text/css"/>
+   <link href="/res/pc/css/contents.css" rel="stylesheet" type="text/css"/>
+   <link href="/res/pc/css/calendar.css" rel="stylesheet" type="text/css"/>
+   <link href="/WEB-APP/webponent/grid/css/webponent.grid.css" rel="stylesheet" type="text/css"/>
+   <link href="/WEB-APP/webponent/grid/css/webponent.grid.flat.css" rel="stylesheet" type="text/css"/>
+   <link href="/WEB-APP/webponent/grid/css/webponent.pagingUI.css" rel="stylesheet" type="text/css"/>
+   <link href="/WEB-APP/webponent/grid/css/webponent.Tree.css" rel="stylesheet" type="text/css"/>
+   <link href="/res/pc/css/grid.css" rel="stylesheet" type="text/css"/>
+   <script src="/WEB-APP/jquery/jquery.min.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/jquery/jquery-ui.min.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/jquery/js.cookie.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/jquery/jquery.scrollTo.min.js" type="text/javascript">
+   </script>
+   <script src="/templets/pc/js/templet.js" type="text/javascript">
+   </script>
+   <script src="/res/pc/js/design.js" type="text/javascript">
+   </script>
+   <script src="/res/pc/js/func.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/calendar/calendar.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/coreboard/inc/js/common.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/autocomplete/autocomplete.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/jwplayer/jwplayer.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/socialLogin/social.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/webponent.licenseKey.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/grid/external/underscore-min.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/grid/external/jquery.mousewheel.min.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/grid/webponent.grid.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/grid/external/webponent.pagingUI.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/grid/webponent.grid.UIplugin.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/grid/external/json2.min.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/grid/external/lz-string.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/grid/webponent.report.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/grid/webponent.grid.AjaxTree.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/chart/lib/comm/raphael.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/chart/lib/comm/webponent.comm.common.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/chart/lib/comm/jquery.ui.touch-punch.min.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/chart/lib/chart/webponent.chart.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/chart/lib/visual/webponent.visual.horizon.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/chart/lib/visual/webponent.visual.korea.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/chart/lib/visual/webponent.visual.pie.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/chart/lib/visual/webponent.visual.scatterplot.js" type="text/javascript">
+   </script>
+   <script src="/WEB-APP/webponent/chart/lib/visual/webponent.visual.treemap.js" type="text/javascript">
+   </script>
+   <!--h:s-->
+   <title>
+    공매도 종합 포털 | 공매도 통계 | 공매도 종합 현황 | 종목별 공매도 종합 현황
+   </title>
+   <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+   <meta content="no-cache" http-equiv="Cache-Control"/>
+   <meta content="0" http-equiv="Expires"/>
+   <meta content="no-cache" http-equiv="Pragma"/>
+   <title>
+    종목별 공매도 종합현황
+   </title>
+   <!--h:e-->
+  </link>
+ </head>
+ <body>
+  <div class="html-wrap">
+   <div class="header-wrap">
+    <div class="header-outer">
+     <div class="header-member">
+      <div class="header-member-outer">
+       <div class="link-group">
+        <a href="http://global.krx.co.kr/contents/GLB/05/0501/0501120100/GLB0501120100.jsp">
+         ENGLISH
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="header">
+      <div class="site-title">
+       <span class="logo">
+        <a href="http://www.krx.co.kr/main/main.jsp">
+         <img alt="KRX" src="/res/pc/img/logo-krx.png"/>
+        </a>
+       </span>
+       <span class="title">
+        <a href="/main/main.jsp">
+         공매도 종합 포털
+        </a>
+       </span>
+      </div>
+      <div class="gnb-wrap">
+       <ul>
+        <li class="gnb-depth1 ">
+         <div>
+          <a data-menu-id="01" href="/contents/SRT/01/01010000/SRT01010000.jsp">
+           공매도 제도
+          </a>
+         </div>
+         <ul class="dpn">
+          <li class="gnb-depth2">
+           <a data-menu-id="0101" href="/contents/SRT/01/01010000/SRT01010000.jsp">
+            공매도 의의
+           </a>
+          </li>
+          <li class="gnb-depth2">
+           <a data-menu-id="0102" href="/contents/SRT/01/01020100/SRT01020100.jsp">
+            공매도 관리 제도
+           </a>
+           <ul class="dpn">
+            <li class="gnb-depth3">
+             <a data-menu-id="010201" href="/contents/SRT/01/01020100/SRT01020100.jsp">
+              결제불이행 방지를 위한 관리방안
+             </a>
+            </li>
+            <li class="gnb-depth3">
+             <a data-menu-id="010202" href="/contents/SRT/01/01020200/SRT01020200.jsp">
+              시장불안 방지를 위한 관리방안
+             </a>
+            </li>
+            <li class="gnb-depth3">
+             <a data-menu-id="010203" href="/contents/SRT/01/01020300/SRT01020300.jsp">
+              투명성 강화를 위한 관리방안
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li class="gnb-depth2">
+           <a data-menu-id="0104" href="/contents/SRT/01/01040100/SRT01040100.jsp">
+            공매도 규제 연혁
+           </a>
+           <ul class="dpn">
+            <li class="gnb-depth3">
+             <a data-menu-id="010401" href="/contents/SRT/01/01040100/SRT01040100.jsp">
+              유가증권시장 규제 연혁
+             </a>
+            </li>
+            <li class="gnb-depth3">
+             <a data-menu-id="010402" href="/contents/SRT/01/01040200/SRT01040200.jsp">
+              코스닥시장 규제 연혁
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li class="gnb-depth2">
+           <a data-menu-id="0105" href="/contents/SRT/01/01050000/SRT01050000.jsp">
+            공매도 법령 체계
+           </a>
+          </li>
+         </ul>
+        </li>
+        <li class="gnb-depth1 gnb-active">
+         <div>
+          <a data-menu-id="02" href="/contents/SRT/02/02010100/SRT02010100.jsp">
+           공매도 통계
+          </a>
+         </div>
+         <ul class="dpn">
+          <li class="gnb-depth2 on">
+           <a data-menu-id="0201" href="/contents/SRT/02/02010100/SRT02010100.jsp">
+            공매도 종합 현황
+           </a>
+           <ul class="dpn">
+            <li class="gnb-depth3">
+             <a data-menu-id="020101" href="/contents/SRT/02/02010100/SRT02010100.jsp">
+              종목별 공매도 종합 현황
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li class="gnb-depth2">
+           <a data-menu-id="0202" href="/contents/SRT/02/02020100/SRT02020100.jsp">
+            공매도 거래 현황
+           </a>
+           <ul class="dpn">
+            <li class="gnb-depth3">
+             <a data-menu-id="020201" href="/contents/SRT/02/02020100/SRT02020100.jsp">
+              종목별 공매도 거래 현황
+             </a>
+            </li>
+            <li class="gnb-depth3">
+             <a data-menu-id="020202" href="/contents/SRT/02/02020200/SRT02020200.jsp">
+              업종별 공매도 거래 현황
+             </a>
+            </li>
+            <li class="gnb-depth3">
+             <a data-menu-id="020203" href="/contents/SRT/02/02020300/SRT02020300.jsp">
+              투자자별 공매도 거래 현황
+             </a>
+            </li>
+            <li class="gnb-depth3">
+             <a data-menu-id="020204" href="/contents/SRT/02/02020400/SRT02020400.jsp">
+              공매도 거래비중 상위 50 종목
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li class="gnb-depth2">
+           <a data-menu-id="0203" href="/contents/SRT/02/02030100/SRT02030100.jsp">
+            공매도 잔고 현황
+           </a>
+           <ul class="dpn">
+            <li class="gnb-depth3">
+             <a data-menu-id="020301" href="/contents/SRT/02/02030100/SRT02030100.jsp">
+              종목별 공매도 잔고 현황
+             </a>
+            </li>
+            <li class="gnb-depth3">
+             <a data-menu-id="020302" href="/contents/SRT/02/02030200/SRT02030200.jsp">
+              업종별 공매도 잔고 현황
+             </a>
+            </li>
+            <li class="gnb-depth3">
+             <a data-menu-id="020303" href="/contents/SRT/02/02030300/SRT02030300.jsp">
+              공매도 잔고 대량보유자 현황
+             </a>
+            </li>
+            <li class="gnb-depth3">
+             <a data-menu-id="020304" href="/contents/SRT/02/02030400/SRT02030400.jsp">
+              공매도 잔고 비중 상위 50 종목
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li class="gnb-depth2">
+           <a data-menu-id="0204" href="/contents/SRT/02/02040100/SRT02040100.jsp">
+            공매도 과열종목 현황
+           </a>
+           <ul class="dpn">
+            <li class="gnb-depth3">
+             <a data-menu-id="020401" href="/contents/SRT/02/02040100/SRT02040100.jsp">
+              공매도 과열종목 지정현황
+             </a>
+            </li>
+            <li class="gnb-depth3">
+             <a data-menu-id="020402" href="/contents/SRT/02/02040200/SRT02040200.jsp">
+              공매도 과열종목 지정기준
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li class="gnb-depth2">
+           <a data-menu-id="0205" href="http://freesis.kofia.or.kr/stat/FreeSIS.do?parentDivId=MSIS10000000000000&amp;serviceId=STATSCU0100000140" target="_blank">
+            대차 현황
+           </a>
+           <ul class="dpn">
+            <li class="gnb-depth3">
+             <a data-menu-id="020501" href="http://freesis.kofia.or.kr/stat/FreeSIS.do?parentDivId=MSIS10000000000000&amp;serviceId=STATSCU0100000140" target="_blank">
+              대차거래추이
+             </a>
+            </li>
+            <li class="gnb-depth3">
+             <a data-menu-id="020502" href="http://freesis.kofia.or.kr/stat/FreeSIS.do?parentDivId=MSIS10000000000000&amp;serviceId=STATSCU0100000170" target="_blank">
+              업종별 대차거래추이
+             </a>
+            </li>
+            <li class="gnb-depth3">
+             <a data-menu-id="020503" href="http://freesis.kofia.or.kr/stat/FreeSIS.do?parentDivId=MSIS10000000000000&amp;serviceId=STATSCU0100000150" target="_blank">
+              참여자별 대차거래내역
+             </a>
+            </li>
+            <li class="gnb-depth3">
+             <a data-menu-id="020504" href="http://freesis.kofia.or.kr/stat/FreeSIS.do?parentDivId=MSIS10000000000000&amp;serviceId=STATSCU0100000180" target="_blank">
+              대차거래 상위 10종목
+             </a>
+            </li>
+           </ul>
+          </li>
+         </ul>
+        </li>
+        <li class="gnb-depth1 ">
+         <div>
+          <a data-menu-id="03" href="/contents/SRT/03/03010000/SRT03010000.jsp">
+           오해와 진실
+          </a>
+         </div>
+         <ul class="dpn">
+          <li class="gnb-depth2">
+           <a data-menu-id="0301" href="/contents/SRT/03/03010000/SRT03010000.jsp">
+            오해와 진실
+           </a>
+          </li>
+         </ul>
+        </li>
+        <li class="gnb-depth1 ">
+         <div>
+          <a data-menu-id="04" href="/contents/SRT/04/04010000/SRT04010000.jsp">
+           자주하는 질문
+          </a>
+         </div>
+         <ul class="dpn">
+          <li class="gnb-depth2">
+           <a data-menu-id="0401" href="/contents/SRT/04/04010000/SRT04010000.jsp">
+            자주하는 질문
+           </a>
+          </li>
+         </ul>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="gnb-bg-wrap dpn">
+      <div class="gnb-bg">
+       <div class="depth2">
+       </div>
+       <div class="depth3">
+       </div>
+       <div class="depth4">
+        <div class="top-link-banner">
+         <a href="/contents/SRT/02/02010100/SRT02010100.jsp">
+          <img alt="공매도 종합 현황, 공매도 거래 전반의 프로세스 별 현황을 조망할 수 있습니다." src="/res/pc/img/bnr-gnb-short.png"/>
+         </a>
+        </div>
+       </div>
+       <div class="depth5">
+        <div class="favorite-link">
+         <dl>
+          <dt>
+           <img alt="자주 찾는 메뉴 BOOKMARK MENU" src="/res/pc/img/ele-gnb.png"/>
+          </dt>
+          <dd>
+           <ul>
+            <li>
+             <span>
+             </span>
+             <a href="/contents/SRT/01/01020100/SRT01020100.jsp">
+              공매도 관리 제도
+             </a>
+            </li>
+            <li>
+             <span>
+             </span>
+             <a href="/contents/SRT/02/02010100/SRT02010100.jsp">
+              종목별 공매도 종합 현황
+             </a>
+            </li>
+            <li>
+             <span>
+             </span>
+             <a href="/contents/SRT/02/02020400/SRT02020400.jsp">
+              공매도 거래 비중 상위 50 종목
+             </a>
+            </li>
+            <li>
+             <span>
+             </span>
+             <a href="/contents/SRT/02/02030400/SRT02030400.jsp">
+              공매도 잔고 비중 상위 50 종목
+             </a>
+            </li>
+           </ul>
+          </dd>
+         </dl>
+        </div>
+       </div>
+      </div>
+      <div class="gnb-shadow">
+      </div>
+     </div>
+     <div class="breadcrumb-wrap">
+      <div class="breadcrumb">
+       <div class="breadcrumb-group">
+        <button class="btn-breadcrumb btn-home" onclick="location.href='/index.html'" type="button">
+         홈
+        </button>
+       </div>
+       <div class="breadcrumb-group">
+        <button class="btn-breadcrumb btn-dropdown" type="button">
+         공매도 통계
+         <span class="caret">
+         </span>
+        </button>
+        <ul class="dpn">
+         <li>
+          <a href="/contents/SRT/01/01010000/SRT01010000.jsp">
+           공매도 제도
+          </a>
+         </li>
+         <li>
+          <a href="/contents/SRT/02/02010100/SRT02010100.jsp">
+           공매도 통계
+          </a>
+         </li>
+         <li>
+          <a href="/contents/SRT/03/03010000/SRT03010000.jsp">
+           오해와 진실
+          </a>
+         </li>
+         <li>
+          <a href="/contents/SRT/04/04010000/SRT04010000.jsp">
+           자주하는 질문
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="breadcrumb-group">
+        <button class="btn-breadcrumb btn-dropdown" type="button">
+         공매도 종합 현황
+         <span class="caret">
+         </span>
+        </button>
+        <ul class="dpn">
+         <li>
+          <a data-menu-id="0201" href="/contents/SRT/02/02010100/SRT02010100.jsp">
+           공매도 종합 현황
+          </a>
+         </li>
+         <li>
+          <a data-menu-id="0202" href="/contents/SRT/02/02020100/SRT02020100.jsp">
+           공매도 거래 현황
+          </a>
+         </li>
+         <li>
+          <a data-menu-id="0203" href="/contents/SRT/02/02030100/SRT02030100.jsp">
+           공매도 잔고 현황
+          </a>
+         </li>
+         <li>
+          <a data-menu-id="0204" href="/contents/SRT/02/02040100/SRT02040100.jsp">
+           공매도 과열종목 현황
+          </a>
+         </li>
+         <li>
+          <a data-menu-id="0205" href="http://freesis.kofia.or.kr/stat/FreeSIS.do?parentDivId=MSIS10000000000000&amp;serviceId=STATSCU0100000140" target="_blank">
+           대차 현황
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="breadcrumb-group">
+        <button class="btn-breadcrumb btn-dropdown" type="button">
+         종목별 공매도 종합 현황
+         <span class="caret">
+         </span>
+        </button>
+        <ul class="dpn">
+         <li>
+          <a href="/contents/SRT/02/02010100/SRT02010100.jsp">
+           종목별 공매도 종합 현황
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="fullmenu-wrap">
+        <button class="btn btn-nav-fullmenu" type="button">
+         메뉴전체보기
+        </button>
+        <div class="menu-sitemap dpn">
+         <div class="ms-header">
+          <span class="ms-header-title">
+           메뉴전체보기
+          </span>
+          <span class="ms-depth-open">
+           <button data-open-status="close">
+            펼쳐보기
+            <span>
+             +
+            </span>
+           </button>
+          </span>
+          <span class="ms-search">
+           <span>
+            <label for="full-menu-search-text">
+             검색
+            </label>
+           </span>
+           <span>
+            <input id="full-menu-search-text" type="text"/>
+            <button>
+             검색
+            </button>
+           </span>
+          </span>
+         </div>
+         <div class="ms-list">
+          <ul>
+           <li>
+            <div class="depth1-name">
+             <span>
+             </span>
+             <a href="/contents/SRT/01/01010000/SRT01010000.jsp">
+              공매도 제도
+             </a>
+            </div>
+            <ul>
+             <li>
+              <a href="/contents/SRT/01/01010000/SRT01010000.jsp">
+               공매도 의의
+              </a>
+             </li>
+             <li>
+              <a href="/contents/SRT/01/01020100/SRT01020100.jsp">
+               공매도 관리 제도
+              </a>
+              <ul>
+               <li>
+                <a class="depth-last" href="/contents/SRT/01/01020100/SRT01020100.jsp">
+                 <span>
+                 </span>
+                 결제불이행 방지를 위한 관리방안
+                </a>
+               </li>
+               <li>
+                <a class="depth-last" href="/contents/SRT/01/01020200/SRT01020200.jsp">
+                 <span>
+                 </span>
+                 시장불안 방지를 위한 관리방안
+                </a>
+               </li>
+               <li>
+                <a class="depth-last" href="/contents/SRT/01/01020300/SRT01020300.jsp">
+                 <span>
+                 </span>
+                 투명성 강화를 위한 관리방안
+                </a>
+               </li>
+              </ul>
+             </li>
+             <li>
+              <a href="/contents/SRT/01/01040100/SRT01040100.jsp">
+               공매도 규제 연혁
+              </a>
+              <ul>
+               <li>
+                <a class="depth-last" href="/contents/SRT/01/01040100/SRT01040100.jsp">
+                 <span>
+                 </span>
+                 유가증권시장 규제 연혁
+                </a>
+               </li>
+               <li>
+                <a class="depth-last" href="/contents/SRT/01/01040200/SRT01040200.jsp">
+                 <span>
+                 </span>
+                 코스닥시장 규제 연혁
+                </a>
+               </li>
+              </ul>
+             </li>
+             <li>
+              <a href="/contents/SRT/01/01050000/SRT01050000.jsp">
+               공매도 법령 체계
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <div class="depth1-name">
+             <span>
+             </span>
+             <a href="/contents/SRT/02/02010100/SRT02010100.jsp">
+              공매도 통계
+             </a>
+            </div>
+            <ul>
+             <li>
+              <a href="/contents/SRT/02/02010100/SRT02010100.jsp">
+               공매도 종합 현황
+              </a>
+              <ul>
+               <li>
+                <a class="depth-last" href="/contents/SRT/02/02010100/SRT02010100.jsp">
+                 <span>
+                 </span>
+                 종목별 공매도 종합 현황
+                </a>
+               </li>
+              </ul>
+             </li>
+             <li>
+              <a href="/contents/SRT/02/02020100/SRT02020100.jsp">
+               공매도 거래 현황
+              </a>
+              <ul>
+               <li>
+                <a class="depth-last" href="/contents/SRT/02/02020100/SRT02020100.jsp">
+                 <span>
+                 </span>
+                 종목별 공매도 거래 현황
+                </a>
+               </li>
+               <li>
+                <a class="depth-last" href="/contents/SRT/02/02020200/SRT02020200.jsp">
+                 <span>
+                 </span>
+                 업종별 공매도 거래 현황
+                </a>
+               </li>
+               <li>
+                <a class="depth-last" href="/contents/SRT/02/02020300/SRT02020300.jsp">
+                 <span>
+                 </span>
+                 투자자별 공매도 거래 현황
+                </a>
+               </li>
+               <li>
+                <a class="depth-last" href="/contents/SRT/02/02020400/SRT02020400.jsp">
+                 <span>
+                 </span>
+                 공매도 거래비중 상위 50 종목
+                </a>
+               </li>
+              </ul>
+             </li>
+             <li>
+              <a href="/contents/SRT/02/02030100/SRT02030100.jsp">
+               공매도 잔고 현황
+              </a>
+              <ul>
+               <li>
+                <a class="depth-last" href="/contents/SRT/02/02030100/SRT02030100.jsp">
+                 <span>
+                 </span>
+                 종목별 공매도 잔고 현황
+                </a>
+               </li>
+               <li>
+                <a class="depth-last" href="/contents/SRT/02/02030200/SRT02030200.jsp">
+                 <span>
+                 </span>
+                 업종별 공매도 잔고 현황
+                </a>
+               </li>
+               <li>
+                <a class="depth-last" href="/contents/SRT/02/02030300/SRT02030300.jsp">
+                 <span>
+                 </span>
+                 공매도 잔고 대량보유자 현황
+                </a>
+               </li>
+               <li>
+                <a class="depth-last" href="/contents/SRT/02/02030400/SRT02030400.jsp">
+                 <span>
+                 </span>
+                 공매도 잔고 비중 상위 50 종목
+                </a>
+               </li>
+              </ul>
+             </li>
+             <li>
+              <a href="/contents/SRT/02/02040100/SRT02040100.jsp">
+               공매도 과열종목 현황
+              </a>
+              <ul>
+               <li>
+                <a class="depth-last" href="/contents/SRT/02/02040100/SRT02040100.jsp">
+                 <span>
+                 </span>
+                 공매도 과열종목 지정현황
+                </a>
+               </li>
+               <li>
+                <a class="depth-last" href="/contents/SRT/02/02040200/SRT02040200.jsp">
+                 <span>
+                 </span>
+                 공매도 과열종목 지정기준
+                </a>
+               </li>
+              </ul>
+             </li>
+             <li>
+              <a href="http://freesis.kofia.or.kr/stat/FreeSIS.do?parentDivId=MSIS10000000000000&amp;serviceId=STATSCU0100000140">
+               대차 현황
+              </a>
+              <ul>
+               <li>
+                <a class="depth-last" href="http://freesis.kofia.or.kr/stat/FreeSIS.do?parentDivId=MSIS10000000000000&amp;serviceId=STATSCU0100000140">
+                 <span>
+                 </span>
+                 대차거래추이
+                </a>
+               </li>
+               <li>
+                <a class="depth-last" href="http://freesis.kofia.or.kr/stat/FreeSIS.do?parentDivId=MSIS10000000000000&amp;serviceId=STATSCU0100000170">
+                 <span>
+                 </span>
+                 업종별 대차거래추이
+                </a>
+               </li>
+               <li>
+                <a class="depth-last" href="http://freesis.kofia.or.kr/stat/FreeSIS.do?parentDivId=MSIS10000000000000&amp;serviceId=STATSCU0100000150">
+                 <span>
+                 </span>
+                 참여자별 대차거래내역
+                </a>
+               </li>
+               <li>
+                <a class="depth-last" href="http://freesis.kofia.or.kr/stat/FreeSIS.do?parentDivId=MSIS10000000000000&amp;serviceId=STATSCU0100000180">
+                 <span>
+                 </span>
+                 대차거래 상위 10종목
+                </a>
+               </li>
+              </ul>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <div class="depth1-name">
+             <span>
+             </span>
+             <a href="/contents/SRT/03/03010000/SRT03010000.jsp">
+              오해와 진실
+             </a>
+            </div>
+            <ul>
+             <li>
+              <a href="/contents/SRT/03/03010000/SRT03010000.jsp">
+               오해와 진실
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <div class="depth1-name">
+             <span>
+             </span>
+             <a href="/contents/SRT/04/04010000/SRT04010000.jsp">
+              자주하는 질문
+             </a>
+            </div>
+            <ul>
+             <li>
+              <a href="/contents/SRT/04/04010000/SRT04010000.jsp">
+               자주하는 질문
+              </a>
+             </li>
+            </ul>
+           </li>
+          </ul>
+         </div>
+         <span class="ms-close">
+          <button>
+           Close
+          </button>
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="body-wrap">
+    <div class="content-wrap">
+     <div class="menu-title open-020101">
+      <h1>
+       <span>
+        종목별 공매도 종합 현황
+       </span>
+       <span class="sub-title">
+        GLOBAL PREMIER EXCHANGE
+       </span>
+      </h1>
+      <div class="search-market">
+       <!-- global 홈페이지 > KRX Market > Market > Bond 타이틀 부분에 버튼 추가 -->
+      </div>
+      <div class="title-util">
+      </div>
+     </div>
+     <article class="body-content SRT020101">
+      <!--b:s-->
+      <div id="pagec4ca4238a0b923820dcc509a6f75849b">
+       <fieldset class="design-fieldset">
+        <legend>
+         종목별 공매도 종합현황
+        </legend>
+        <form action="/contents/SRT/99/SRT99000001.jspx" autocomplete="off" data-bld="SRT/02/02010100/srt02010100" id="formc4ca4238a0b923820dcc509a6f75849b" method="post" onsubmit="return false;">
+         <dl>
+          <dt>
+           <span>
+            <span>
+             종목검색
+            </span>
+           </span>
+          </dt>
+          <dd>
+           <input autocomplete="off" class="func-finder-input " data-cd="" id="isu_cdnmeccbc87e4b5ce2fe28308fd9f2a7baf3" name="isu_cdnm" title="종목/회사코드명검색1" type="text"/>
+           <button class="func-btn-small func-btn-small-search" id="finderbtneccbc87e4b5ce2fe28308fd9f2a7baf3" name="finderbtn" type="button">
+            <span>
+            </span>
+            검색
+           </button>
+           <input id="isu_cdeccbc87e4b5ce2fe28308fd9f2a7baf3" name="isu_cd" title="종목코드" type="hidden"/>
+           <input id="isu_nmeccbc87e4b5ce2fe28308fd9f2a7baf3" name="isu_nm" title="종목이름" type="hidden"/>
+           <input id="isu_srt_cdeccbc87e4b5ce2fe28308fd9f2a7baf3" name="isu_srt_cd" title="단축종목코드" type="hidden"/>
+          </dd>
+         </dl>
+         <script>
+          $(document).ready(function(){
+	$('#isu_cdnmeccbc87e4b5ce2fe28308fd9f2a7baf3').keypress(function(e){
+		if(e.which == 13){
+			return false;
+		}
+	});
+
+	var schIsuCd;
+	if(Cookies.get('schStocksHistory') != undefined){
+		cookieData = Cookies.getJSON('schStocksHistory');
+		var lastCd;
+		for (var key in cookieData){
+			lastCd = key;
+		}
+		schIsuCd = cookieData[lastCd].keyCd;
+	}else{
+		
+		schIsuCd = 'A035720';
+		
+	}
+	
+		
+
+	if(schIsuCd != undefined && schIsuCd != ''){
+		var paramData = {code : $.otpCode('finderBld', {'bld' : '/COM/stock_isu_info'})};
+		paramData.isu_srt_cd = schIsuCd;
+		$.func.ajaxSubmit(getContextPath() + '/contents/' + getSiteName()  +'/99/' + getSiteName() + '99000001.jspx', paramData, false).success(function(data){
+			var codeData = data[$.func.getJsonKey(data,0)][0];
+			if(codeData != undefined){
+				if('ko' == 'en'){
+					$('#isu_cdnmeccbc87e4b5ce2fe28308fd9f2a7baf3').val(codeData.isu_srt_cd +'/'+ codeData.isu_eng_nm);	
+				}else{
+					$('#isu_cdnmeccbc87e4b5ce2fe28308fd9f2a7baf3').val(codeData.isu_srt_cd +'/'+ codeData.isu_nm);
+				}
+				$('#isu_cdeccbc87e4b5ce2fe28308fd9f2a7baf3').val(codeData.isu_cd);
+				$('#isu_srt_cdeccbc87e4b5ce2fe28308fd9f2a7baf3').val(codeData.isu_srt_cd);
+				$('#isu_nmeccbc87e4b5ce2fe28308fd9f2a7baf3').val(codeData.isu_nm);
+			}
+		});
+	}
+/* 	
+	$('#isu_cdnmeccbc87e4b5ce2fe28308fd9f2a7baf3').autocomplete({
+		'contextName' : 'searchoption',
+		'searchCookie' : true,
+		'searchCookieType' : 'schStocksHistory',
+		'viewCount' : 5,
+		'submit' : function (obj) {
+			var item = $(obj).attr('data-cd');
+			if(item != undefined){
+				$('#isu_cdeccbc87e4b5ce2fe28308fd9f2a7baf3').val($(obj).attr('data-fcd'));
+				$('#isu_srt_cdeccbc87e4b5ce2fe28308fd9f2a7baf3').val(item);
+				$('#isu_nmeccbc87e4b5ce2fe28308fd9f2a7baf3').val($(obj).attr('data-nm'));
+			}else{
+				$('#isu_cdeccbc87e4b5ce2fe28308fd9f2a7baf3, #isu_srt_cdeccbc87e4b5ce2fe28308fd9f2a7baf3, #isu_nmeccbc87e4b5ce2fe28308fd9f2a7baf3').val("");
+			}
+		},
+		'submitClear' : false
+	});
+ */	
+
+
+	$('#finderbtneccbc87e4b5ce2fe28308fd9f2a7baf3').on('click',function(){
+		var params = {
+			'inputId' : 'isu_cdnmeccbc87e4b5ce2fe28308fd9f2a7baf3',		
+			'hidCodeId' : 'isu_cdeccbc87e4b5ce2fe28308fd9f2a7baf3',
+			'hidShotCodeId' : 'isu_srt_cdeccbc87e4b5ce2fe28308fd9f2a7baf3',
+			'hidNameId' : 'isu_nmeccbc87e4b5ce2fe28308fd9f2a7baf3',
+			'marketTp' : 'ALL',
+			'no' : 'SRT1',
+			'schWord' : $('#isu_cdnmeccbc87e4b5ce2fe28308fd9f2a7baf3').val()
+		};
+		$.func.openCodeFinder('/contents/COM/FinderSrtIsu.jsp', this, params);
+	});
+
+
+	
+	
+	
+		$('#isu_cdnmeccbc87e4b5ce2fe28308fd9f2a7baf3').autocomplete({
+			'contextName' : 'stkisu3',
+			'bldPath' : '/COM/finder_stkisu_autocomplete',
+			'viewCount' : 5,
+			'submit' : function (li) {
+				$('#isu_nmeccbc87e4b5ce2fe28308fd9f2a7baf3').val(li.attr('data-nm'));
+				$('#isu_cdeccbc87e4b5ce2fe28308fd9f2a7baf3').val(li.attr('data-cd'));
+				$('#isu_srt_cdeccbc87e4b5ce2fe28308fd9f2a7baf3').val(li.attr('data-tp'));
+				$('#isu_cdnmeccbc87e4b5ce2fe28308fd9f2a7baf3').val(li.attr('data-tp')+'/'+li.attr('data-nm'));
+				return false;
+			},
+			'submitClear' : false
+		});	
+	
+	
+
+
+});
+         </script>
+         <dl>
+          <dt>
+           <span>
+            <span>
+             조회기간
+            </span>
+           </span>
+          </dt>
+          <dd>
+           <input class="schdate" id="strt_dda87ff679a2f3e71d9181a67b7542122c" name="strt_dd" type="text" value="20181002"/>
+           <label for="strt_dda87ff679a2f3e71d9181a67b7542122c" style="display:none">
+            검색일자
+           </label>
+           <input class="schdate" id="end_dda87ff679a2f3e71d9181a67b7542122c" name="end_dd" type="text" value="20181002"/>
+           <label for="end_dda87ff679a2f3e71d9181a67b7542122c" style="display:none">
+            마감일자
+           </label>
+          </dd>
+         </dl>
+         <script>
+          var dateId = ['#strt_dda87ff679a2f3e71d9181a67b7542122c','#end_dda87ff679a2f3e71d9181a67b7542122c'];
+if(dateId.length > 1){
+	$.func.selectPeriod('1m', $(dateId[0]), $(dateId[1]));
+}
+var calOption = {inputId: dateId};
+
+
+if(dateId.length > 0){
+	$(dateId[0]).closest('dd').children('.cal-area').attr('data-init-period','1m');
+}
+
+var paramData = {code : $.otpCode('calendar', {'bld' : '/COM/market_date_t'})};
+$.func.ajaxSubmit('/contents/SRT/99/SRT99000001.jspx', paramData, false).success(function(data){
+	var objData = data[$.func.getJsonKey(data,0)][0];
+	var dateData = objData[$.func.getJsonKey(objData,0)];
+	
+	if(dateId.length > 0){
+		$.each(dateId, function(i, item){
+			
+			$(item).val(dateData);
+		});
+		$.func.selectPeriod('1m', $(dateId[0]), $(dateId[1]));
+	}
+});
+
+$.fn.calendar(calOption);
+         </script>
+         <script>
+          $('.schdate').keypress(function(e){
+	if(e.which == 13){
+		return false;
+	}
+});
+         </script>
+         <div class="design-center">
+          <button class="btn-board btn-board-search" id="btnidc4ca4238a0b923820dcc509a6f75849b" type="button">
+           <span>
+           </span>
+           조회
+          </button>
+          <script>
+           $(document).ready(function(){
+	if(typeof sijangjiPdf == "undefined"){
+		$('#btnidc4ca4238a0b923820dcc509a6f75849b').on('click', function (event, params) {
+			//event.preventDefault();
+			
+			var $f =  $(this).closest('form');
+			var isChecked = $.func.checkPeriod($f);
+			if (isChecked) {
+				var formData = $f.serializeArray();
+				var code = $.otpCode('form', {'bld' : $f.attr('data-bld')});
+				formData.push({name:'code',value: code});
+				
+				var isCurPageChk = true;
+				var isNaviEvtChk = false;
+				if(params != undefined){
+					formData.push(params);
+					//페이지 처음호출이 아닌 두번째 조회버튼 클릭시 curPage를 초기화한다.
+					if(params.name == 'pageFirstCall'){
+						isCurPageChk = false;
+					}
+					if(params.name == 'naviBtnEvt'){
+						isNaviEvtChk = true;
+						//form의 값이 변경되고 페이징 버튼을 클릭한 경우
+						if(params.value == 'R'){
+							isNaviEvtChk = false;
+						}
+					}
+				}
+				
+				//페이징을 하는경우 해당페이지의 페이지네비게이션 이벤트가 아닌경우 조회시 1로 초기화한다.
+				if(isCurPageChk && $('input[name=curPage]',$f).length > 0){
+					var findObj = _.findWhere(formData,{name:'curPage'});
+					if(isNaviEvtChk == false){
+						var curPageIdx = _.indexOf(formData, findObj);
+						formData[curPageIdx] = {name:'curPage', value:1};
+						$('input[name=curPage]',$f).val(1);
+					}
+				}
+				
+				$f.attr('data-code', code);
+				var ajaxSync = true;
+				
+				$.func.ajaxSubmit($f.attr('action'), formData, ajaxSync, 'json', false);
+				
+				//화면 조회"WebContent/WEB-INF/tags/func/submitBtn.tag"시 조회시간(time tag) 동기화
+				//time tag는 일자, 일자+시간, 일자+시간+20분지연메시지(영문포함) 유형
+				
+				//시장정보 화면은 pageId 기준으로 찾음 pageId 가 없는 화면은 body에서 찾자
+				var $time = $('#pagec4ca4238a0b923820dcc509a6f75849b').find('.func-icon-time');
+				var syncTime = $time.find('span:eq(1)').html();
+				var nDay = $.nowTimeDate().getDateFormat('/');
+				var nTime = $.nowTimeDate().getTimeFormat(':');
+				
+				if (syncTime === undefined) {
+					var $b = $(this).closest('body');
+					$time = $b.find('.func-icon-time');
+					syncTime = $time.find('span:eq(1)').html();
+				}
+				
+				if ($time.length > 0) {
+					syncTime = syncTime.replace(syncTime.split(' ')[0], nDay).replace(syncTime.split(' ')[2], nTime);
+					$time.find('span:eq(1)').html(syncTime);
+				}
+				$('#btnidc4ca4238a0b923820dcc509a6f75849b').prop('disabled', true);
+			} else {
+				alert('조회기간은 1년을 초과할 수 없습니다.');
+			}
+		});
+		$(document).ready(function(){
+			setTimeout(function () {
+				$('#btnidc4ca4238a0b923820dcc509a6f75849b').trigger('click', {name:'pageFirstCall',value:'Y'});
+			}, 300);
+		});
+		
+		
+	 	$(document).ajaxSuccess(function (event, xhr, settings) {
+			var $frm = $('#btnidc4ca4238a0b923820dcc509a6f75849b').closest('form');
+			if(settings.url == $frm.attr('action') && decodeURIComponent(settings.data).indexOf($frm.attr('data-code')) != -1){
+				setTimeout(function () {
+					$('#btnidc4ca4238a0b923820dcc509a6f75849b').prop('disabled', false);
+				}, 1000);
+			}
+		}); 
+ 	
+	}
+});
+          </script>
+          <span class="button-mdi-group" id="e4da3b7fbbce2345d7772b0674a318d5">
+           <button onclick="$.down(this,'xls','formc4ca4238a0b923820dcc509a6f75849b');return false;">
+            Excel
+           </button>
+          </span>
+          <script>
+           $.mdiButtonGroup('e4da3b7fbbce2345d7772b0674a318d5')
+          </script>
+         </div>
+         <input name="pagePath" type="hidden" value="/contents/SRT/02/02010100/SRT02010100.jsp"/>
+        </form>
+       </fieldset>
+       <div class="func-gridChart-area" id="area1679091c5a880faf6fb5e6087eb1b2dc">
+        <table id="ci-grid-no8f14e45fceea167a5a36dedd4bea2543">
+        </table>
+        <script id="ci-grid-no8f14e45fceea167a5a36dedd4bea2543-templet" type="text/template">
+         <table width="100%" height="500px">
+<thead><tr><th name="trd_dd" align="center" rowspan="2" width="13%">일자</th><th name="isu_cd" align="center" rowspan="2" width="13%">종목코드</th><th name="isu_abbrv" align="left" rowspan="2" width="14%">종목명</th><th name="vol" align="right" colspan="2" width="30%">수량</th><th name="val" align="right" colspan="2" width="30%">대금</th></tr><tr><th name="cvsrtsell_trdvol" align="right" width="50%" parent="vol">공매도<br/>거래량(주)</th><th name="str_const_val1" align="right" width="50%" parent="vol">공매도<br/>잔고수량(주)</th><th name="cvsrtsell_trdval" align="right" width="50%" parent="val">공매도<br/>거래대금(원)</th><th name="str_const_val2" align="right" width="50%" parent="val">공매도<br/>잔고금액(원)</th></tr></thead><tbody>
+			
+<tr>
+				
+<td bind="trd_dd" name="trd_dd"></td>
+				<td bind="isu_cd" name="isu_cd"></td>
+				<td bind="isu_abbrv" name="isu_abbrv"></td>
+				<td bind="cvsrtsell_trdvol" name="cvsrtsell_trdvol"></td>
+				<td bind="str_const_val1" name="str_const_val1"></td>
+				<td bind="cvsrtsell_trdval" name="cvsrtsell_trdval"></td>
+				<td bind="str_const_val2" name="str_const_val2"></td>
+			
+</tr>
+		
+</tbody>
+
+</table>
+        </script>
+        <script>
+         $(document).ready(function(){
+	var table8f14e45fceea167a5a36dedd4bea2543 = $('#ci-grid-no8f14e45fceea167a5a36dedd4bea2543');
+	var templet8f14e45fceea167a5a36dedd4bea2543 = $('#ci-grid-no8f14e45fceea167a5a36dedd4bea2543-templet');
+	var grid8f14e45fceea167a5a36dedd4bea2543 = webponent.grid.init(table8f14e45fceea167a5a36dedd4bea2543, templet8f14e45fceea167a5a36dedd4bea2543);
+	if(grid8f14e45fceea167a5a36dedd4bea2543.markup.main.body.caption != undefined){
+		$(grid8f14e45fceea167a5a36dedd4bea2543.markup.area).append($(grid8f14e45fceea167a5a36dedd4bea2543.markup.main.body.caption).children('span'));
+	}
+
+
+
+	var drawLoadingView = function () {
+		var innerHTML = '<div class="grid-loader-wrapper"><div class="grid-loader"><span class="tit">KRX 데이터를 생성중입니다.</span><span class="desc">데이터를 생성 중이므로 잠시만 기다려 주십시오.</span><span class="tel">문의전화 1577-0088</span></div></div>';
+		if(typeof sijangjiPdf == 'undefined'){
+			$(grid8f14e45fceea167a5a36dedd4bea2543.markup.area).append(innerHTML);
+			$('body').css('cursor','url(/res/pc/img/wait_cursor.cur), auto');
+		}
+	};
+	
+	table8f14e45fceea167a5a36dedd4bea2543.attr('data-bld','SRT/02/02010100/srt02010100');
+		
+	
+	if($('#formc4ca4238a0b923820dcc509a6f75849b').find('.grid-column-setting').length > 0){
+		webponent.grid.UIplugin.init(grid8f14e45fceea167a5a36dedd4bea2543, {
+			settingUI : true,
+			settingButton : $('#formc4ca4238a0b923820dcc509a6f75849b').find('.grid-column-setting')
+		});
+	}
+		
+	if(getDevice() == 'mobile'){
+		$.func.resizeMobileGrid(grid8f14e45fceea167a5a36dedd4bea2543);
+	}else{
+		if(typeof sijangjiPdf == 'undefined'){
+			
+		}	
+	}
+	if(typeof sijangjiPdf == "undefined"){
+		$(document).ajaxSuccess(function (event, xhr, settings) {
+			if(settings.url == $('#formc4ca4238a0b923820dcc509a6f75849b').attr('action')){
+				if($('#formc4ca4238a0b923820dcc509a6f75849b').attr('data-bld') == grid8f14e45fceea167a5a36dedd4bea2543.settings.table.markup.attr('data-bld') && decodeURIComponent(settings.data).indexOf($('#formc4ca4238a0b923820dcc509a6f75849b').attr('data-code')) != -1){
+					var data = xhr.responseJSON[$.func.getJsonKey(xhr.responseJSON,0)];
+					$(grid8f14e45fceea167a5a36dedd4bea2543.markup.area).find('.grid-loader-wrapper').remove();
+					$('body').css('cursor','default');
+					grid8f14e45fceea167a5a36dedd4bea2543.formData = $('#formc4ca4238a0b923820dcc509a6f75849b').serializeArray();
+					grid8f14e45fceea167a5a36dedd4bea2543.removeRow();
+					if(data.length == 0){
+						var cellInt = 0;
+						_.filter(grid8f14e45fceea167a5a36dedd4bea2543.settings.columns, function (column) {
+							if(column.level === 0 && column.visibility != 'hidden'){
+								cellInt = cellInt + column.colspan;
+							}
+						});
+						$(grid8f14e45fceea167a5a36dedd4bea2543.markup.main.body.tbody).append('<tr><td colspan="'+ cellInt +'" align="center">데이터가 없습니다</td></tr>');
+						grid8f14e45fceea167a5a36dedd4bea2543.appendRow({});
+						
+						return false;
+					} else {
+						
+						
+						grid8f14e45fceea167a5a36dedd4bea2543.appendRow(data);
+						
+					}
+				}
+			}
+		});
+		$(document).ajaxError(function(event, xhr, settings, error){
+			if(settings.url == $('#formc4ca4238a0b923820dcc509a6f75849b').attr('action')){
+				if($('#formc4ca4238a0b923820dcc509a6f75849b').attr('data-bld') == grid8f14e45fceea167a5a36dedd4bea2543.settings.table.markup.attr('data-bld') && decodeURIComponent(settings.data).indexOf($('#formc4ca4238a0b923820dcc509a6f75849b').attr('data-code')) != -1){
+					$(grid8f14e45fceea167a5a36dedd4bea2543.markup.area).find('.grid-loader-wrapper').remove();
+					$('body').css('cursor','default');
+				}
+			}
+		});
+		$(document).ajaxSend(function(event, xhr, settings){
+			if(settings.url == $('#formc4ca4238a0b923820dcc509a6f75849b').attr('action')){
+				if($('#formc4ca4238a0b923820dcc509a6f75849b').attr('data-bld') == grid8f14e45fceea167a5a36dedd4bea2543.settings.table.markup.attr('data-bld') && decodeURIComponent(settings.data).indexOf($('#formc4ca4238a0b923820dcc509a6f75849b').attr('data-code')) != -1){
+					drawLoadingView();
+				}
+			}
+		});
+	} else {
+		var $f =  $('#formc4ca4238a0b923820dcc509a6f75849b');
+		if($f.attr('data-bld') == 'SRT/02/02010100/srt02010100'){
+			var code = $.otpCode('form', {'bld' : $f.attr('data-bld')});
+			var formData = $f.serializeArray();
+			formData.push({name:'code',value: code});
+			$f.attr('data-code', code);
+			
+			var sijangjiFormId = $(grid8f14e45fceea167a5a36dedd4bea2543.markup.area).closest('.pdf_container').attr('data-form-id');
+			
+			if ($('#' + sijangjiFormId).length > 0) {
+				var sijangformData = $('#' + sijangjiFormId).serializeArray();
+				for (var i = 0; i < sijangformData.length; i++) {
+					var merge = 0;
+					for (var j = 0; j < formData.length; j++) {
+						if (sijangformData[i].name == formData[j].name) {
+							formData[j].value = sijangformData[i].value;
+							merge++;
+						}
+					}
+					if (merge == 0) {
+						formData.push({name:sijangformData[i].name,value:sijangformData[i].value});
+					}
+				}
+			}
+			$.func.ajaxSubmit($f.attr('action'), formData, false).success(function(responseJSON){
+				var data = responseJSON[$.func.getJsonKey(responseJSON,0)];
+				$(grid8f14e45fceea167a5a36dedd4bea2543.markup.area).find('.grid-loader-wrapper').remove();
+				$('body').css('cursor','default');
+				grid8f14e45fceea167a5a36dedd4bea2543.formData = formData;
+				if(data.length === 0){
+					var cellInt = 0;
+					_.filter(grid8f14e45fceea167a5a36dedd4bea2543.settings.columns, function (column) {
+						if(column.level === 0 && column.visibility != 'hidden'){
+							cellInt = cellInt + column.colspan;
+						}
+					});
+					$(grid8f14e45fceea167a5a36dedd4bea2543.markup.main.body.tbody).append('<tr><td colspan="'+ cellInt +'" align="center">데이터가 없습니다</td></tr>');
+					grid8f14e45fceea167a5a36dedd4bea2543.appendRow({});
+					return false;
+				}
+				$.each(grid8f14e45fceea167a5a36dedd4bea2543.settings.columns, function(i, colum){
+					var thText = colum.copiedHeader.innerHTML;
+					$.each(formData, function(x, data){
+						if(thText.indexOf(data.name) > -1){
+							var columDate;
+							if(data.name == 'schdate'){
+								columDate = data.value.substring(0,4) + '/' + data.value.substring(4,6) + '/' + data.value.substring(6,8);
+							}else if(data.name == 'schyear'){
+								columDate = data.value;
+							}
+							grid8f14e45fceea167a5a36dedd4bea2543.setColumnLabel(i,thText.replace("{{" + data.name + "}}", columDate));
+						}
+					});
+				});
+				
+				if (typeof(rowCached8f14e45fceea167a5a36dedd4bea2543) != "undefined") {
+					grid8f14e45fceea167a5a36dedd4bea2543.event.off('rowCached');
+				}
+				
+				if (typeof(dataRendered8f14e45fceea167a5a36dedd4bea2543) != "undefined") {
+					grid8f14e45fceea167a5a36dedd4bea2543.event.off('dataRendered');
+				}
+				
+				grid8f14e45fceea167a5a36dedd4bea2543.removeRow();
+				grid8f14e45fceea167a5a36dedd4bea2543.appendRow(data);
+				
+				if (typeof(rowCached8f14e45fceea167a5a36dedd4bea2543) != "undefined") {
+					rowCached8f14e45fceea167a5a36dedd4bea2543(null, grid8f14e45fceea167a5a36dedd4bea2543);
+				}
+				
+				if (typeof(dataRendered8f14e45fceea167a5a36dedd4bea2543) != "undefined") {
+					dataRendered8f14e45fceea167a5a36dedd4bea2543();
+				}
+			});
+		}else{
+			grid8f14e45fceea167a5a36dedd4bea2543.destroy();
+		}
+	}
+
+	if($(grid8f14e45fceea167a5a36dedd4bea2543.markup.area).width() > 800 && typeof(grid8f14e45fceea167a5a36dedd4bea2543.settings.docBaseWidth) == "undefined" && $(grid8f14e45fceea167a5a36dedd4bea2543.markup.area).closest('.doc-content-wrap').find('.max-width').length > 0 && 'true' == 'true' ){
+		grid8f14e45fceea167a5a36dedd4bea2543.settings.docBaseWidth = $.func.getWidthSmall(grid8f14e45fceea167a5a36dedd4bea2543); 
+		$.func.resizeMarketGrid(grid8f14e45fceea167a5a36dedd4bea2543, $(grid8f14e45fceea167a5a36dedd4bea2543.markup.area).closest('.doc-content-wrap').width()-17);
+	}
+});
+        </script>
+       </div>
+       <script>
+        $.displayTogglePage($('#area1679091c5a880faf6fb5e6087eb1b2dc'), true);
+       </script>
+       <div class="pagination" id="pagenavic9f0f895fb98ab9159f51fd0297e236d">
+        <ul>
+         <li class="first disabled">
+          <a href="#">
+           &lt;&lt;
+          </a>
+         </li>
+         <li class="prev disabled">
+          <a href="#">
+           &lt;
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           1
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           2
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           3
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           4
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           5
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           6
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           7
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           8
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           9
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           10
+          </a>
+         </li>
+         <li class="next disabled">
+          <a href="#">
+           &gt;
+          </a>
+         </li>
+         <li class="end disabled">
+          <a href="#">
+           &gt;&gt;
+          </a>
+         </li>
+        </ul>
+       </div>
+       <script>
+        $(document).ready(function(){
+	var pageSize = 500;
+	var currentPageIndex = 1;
+	var endPage = 1 + 10 - 1;
+	var defaultNaviCount = 10;
+	var lastIndex;
+	var lastFirstIndex;
+	var $firstNaviBtn;
+	$(document).ajaxSuccess(function (event, xhr, settings) {
+		if(settings.url == $('#formc4ca4238a0b923820dcc509a6f75849b').attr('action')){
+			if(decodeURIComponent(settings.data).indexOf($('#formc4ca4238a0b923820dcc509a6f75849b').attr('data-code')) != -1 && settings.data.indexOf('curPage') === -1){
+				var data = xhr.responseJSON[$.func.getJsonKey(xhr.responseJSON,0)];
+				var totRows = (data[0]=== undefined) ? 0 : ((data[0].totCnt != undefined && data[0].totCnt > 0) ? data[0].totCnt : 0);
+				lastIndex = totRows == 0 ? 1 : parseInt(((totRows-1) / pageSize))+1;
+				lastFirstIndex = parseInt(lastIndex / defaultNaviCount) * defaultNaviCount;
+				
+				//초기 선택된 li의 class를 삭제
+				$('li[class=active]','#pagenavic9f0f895fb98ab9159f51fd0297e236d').removeAttr('class');
+				
+				if(endPage > lastIndex){
+					$('li:not([class])','#pagenavic9f0f895fb98ab9159f51fd0297e236d').each(function(idx, liObject){
+						var pageNo = lastFirstIndex + idx + 1;
+						$(liObject).find('a').text(pageNo);
+						if(lastIndex < pageNo){
+							$(liObject).hide();
+						}else{
+							$(liObject).show();
+						}
+					});
+				}else{
+					$('li:not([class])','#pagenavic9f0f895fb98ab9159f51fd0297e236d').show();
+				}
+				
+				$('.first, .prev','#pagenavic9f0f895fb98ab9159f51fd0297e236d').addClass('disabled');
+				
+				if(lastIndex == 1){
+					$('.next, .end','#pagenavic9f0f895fb98ab9159f51fd0297e236d').addClass('disabled');
+				}else{
+					if(defaultNaviCount > lastFirstIndex){
+						$('.end','#pagenavic9f0f895fb98ab9159f51fd0297e236d').addClass('disabled');	
+					}
+					$('.next','#pagenavic9f0f895fb98ab9159f51fd0297e236d').removeClass('disabled');
+				}
+				//초기화 1번 표시			
+				$('li:not([class]):eq(0)','#pagenavic9f0f895fb98ab9159f51fd0297e236d').attr('class','active');
+			}
+		}
+	});
+	$('li:not([class]):not(:eq(0))','#pagenavic9f0f895fb98ab9159f51fd0297e236d').hide();
+	
+	$('#pagenavic9f0f895fb98ab9159f51fd0297e236d > ul > li').on('click', function(e){
+		e.preventDefault();
+		if($(this).hasClass('active') || $(this).hasClass('disabled')){
+			return false;
+		}
+		currentPageIndex = $.func.pageNationEvent(this, defaultNaviCount, currentPageIndex, lastIndex, lastFirstIndex);
+		$('#formc4ca4238a0b923820dcc509a6f75849b').find('.btn-board-search').trigger('click', {name : 'curPage', value : currentPageIndex});
+	});
+});
+       </script>
+       <div class="design-mdi-page-desc">
+        <ul>
+         <li>
+          1. 본 화면은 종목별로 공매도 거래현황과 잔고 현황을 통합하여 제공합니다.
+          <br/>
+          <br/>
+         </li>
+         <li>
+          2. 공매도 잔고 정보는 공매도 잔고 보고의무(상장주식수 대비 △0.01% 이상 등)가 발생한 투자자의 공매도 잔고 내역을 종목별로 합산한 데이터입니다. 보고의무 발생일(T)로부터 2일째 되는 날(T+2일)까지 보고하므로, 공매도잔고 정보는 당일 기준으로 2일전 내역까지 확인할 수 있습니다. (단, 투자자가 T+2일 18시 이후 금융감독원에 신규 또는 정정 보고(공시)를 제출하는 경우 공매도 잔고 데이터가 변경될 수 있음을 유의해주시기 바랍니다.)
+          <br/>
+          <br/>
+         </li>
+         <li>
+          3. 당일자 데이터는 18시 10분 이후부터 조회됩니다.
+          <br/>
+          <br/>
+         </li>
+         <li>
+          4. 공매도 잔고 현황은 2016.6.30일자부터 조회가 가능합니다.
+         </li>
+        </ul>
+       </div>
+      </div>
+      <!--b:e-->
+     </article>
+    </div>
+   </div>
+   <div class="footer-wrap">
+    <div class="footer-outer">
+     <div class="footer">
+      <div class="footer-util">
+       <nav>
+        <ul>
+         <li>
+          <a href="http://info.krx.co.kr/contents/KRX/06/06070100/KRX06070100.jsp" target="_blank">
+           <strong>
+            개인정보처리방침
+           </strong>
+          </a>
+         </li>
+         <li>
+          <a href="http://info.krx.co.kr/contents/KRX/06/06070400/KRX06070400.jsp" target="_blank">
+           영상정보처리기기 운영관리방침
+          </a>
+         </li>
+         <li>
+          <a href="http://info.krx.co.kr/contents/KRX/06/06070200/KRX06070200.jsp" target="_blank">
+           법적고지
+          </a>
+         </li>
+         <li>
+          <a class="footer-sitemap" href="/contents/COM/Sitemap.jsp">
+           사이트맵
+          </a>
+         </li>
+         <li>
+          <a href="http://info.krx.co.kr/contents/KRX/06/06010000/KRX06010000.jsp" target="_blank">
+           고객서비스헌장
+          </a>
+         </li>
+         <li>
+          <a href="http://task.krx.co.kr">
+           대외업무
+          </a>
+         </li>
+        </ul>
+       </nav>
+       <div class="family-site" id="family-site">
+        <button class="btn-family-site btn-dropdown" data-expanded="false" type="button">
+         패밀리 사이트
+        </button>
+        <ul class="dpn">
+         <li>
+          <a href="http://task.krx.co.kr" target="_blank">
+           · 대외업무
+          </a>
+         </li>
+         <li>
+          <a href="http://kind.krx.co.kr" target="_blank">
+           · 상장공시시스템(KIND)
+          </a>
+         </li>
+         <li>
+          <a href="http://kasp.krx.co.kr" target="_blank">
+           · 상장기업지원서비스
+          </a>
+         </li>
+         <li>
+          <a href="http://isin.krx.co.kr/main/main.do" target="_blank">
+           · 표준코드시스템
+          </a>
+         </li>
+         <li>
+          <a href="http://www.krxfoundation.or.kr/" target="_blank">
+           · KRX 국민행복재단
+          </a>
+         </li>
+         <li>
+          <a href="http://trn.krx.co.kr" target="_blank">
+           · 파생상품 모의거래시스템
+          </a>
+         </li>
+         <li>
+          <a href="http://bonds.krx.co.kr" target="_blank">
+           · 채권상장시스템
+          </a>
+         </li>
+         <li>
+          <a href="https://voc.krx.co.kr" target="_blank">
+           · 민원센터
+          </a>
+         </li>
+         <li>
+          <a href="http://index.krx.co.kr" target="_blank">
+           · 지수
+          </a>
+         </li>
+         <li>
+          <a href="http://konex.krx.co.kr" target="_blank">
+           · 코넥스시장
+          </a>
+         </li>
+         <li>
+          <a href="http://krxrnd.krx.co.kr" target="_blank">
+           · 증권·파생상품연구센터
+          </a>
+         </li>
+         <li>
+          <a href="http://startup.krx.co.kr" target="_blank">
+           · KRX Start-Up
+          </a>
+         </li>
+         <li>
+          <a href="http://ksm.krx.co.kr" target="_blank">
+           · KRX Startup Market
+          </a>
+         </li>
+         <li>
+          <a href="http://mna.krx.co.kr" target="_blank">
+           · M&amp;A중개망
+          </a>
+         </li>
+         <li>
+          <a href="http://short.krx.co.kr" target="_blank">
+           공매도 종합 포털
+          </a>
+         </li>
+         <li>
+          <a href="http://smile.krx.co.kr" target="_blank">
+           KRX 증권투자 정보포털
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="footer-address">
+      <address>
+       본사 : 48400 부산광역시 남구 문현금융로 40(문현동) TEL : 051-662-2000 사업자 등록번호 : 602-81-35420  금융서비스업 대표자 : 정지원
+       <br/>
+       서울 : 07329 서울특별시 영등포구 여의나루로 76(여의도동) TEL : 1577-0088 / 02-3774-9000 / 통신판매신고 부산남구 .0036호
+       <br/>
+      </address>
+      <div class="copyright">
+       COPYRIGHT©2015 KOREA EXCHANGE ALL RIGHTS RESERVED. WEBMASTER@KRX.CO.KR
+      </div>
+      <div class="mark">
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="pageutil">
+    <span class="home">
+     <button type="button">
+      HOME
+     </button>
+    </span>
+    <span class="pc-ver">
+     <button type="button">
+      PC Ver
+     </button>
+    </span>
+    <span class="top">
+     <button type="button">
+      TOP
+     </button>
+    </span>
+   </div>
+  </div>
+ </body>
+</html>
