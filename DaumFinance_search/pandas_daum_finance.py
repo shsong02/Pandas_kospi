@@ -14,14 +14,26 @@ import pymysql
 from sqlalchemy import create_engine
 
 ##########
+## use systrading
 ## ./mysql -u root -p systrading
 ## show tables
-## dtop table _tablename_
+## drop table _tablename_
 ## desc _tablename_
 ## drop index unique_name on tablename
-## alter table _name_ add unique key (cdate, mcode);
+## alter table transactionsummary add unique key (cdate,mcode);
+## select count(*) from transactionsummary ;
+
 ## select * from companyList limit 10;
 ## select * from companyList limit 10,20;
+## select * from transactionsummary where cdate ='2017-05-12' AND  mcode='3230';
+
+## 중복 데이터 삭제
+## DELETE FROM transactionsummary WHERE id INj
+## ( SELECT id FROM (SELECT id FROM transactionsummary GROUP BY cdate, mcode HAVING count(*) > 1) temp_table ) ;
+
+
+
+
 
 ### Init
 f = open("foreigner_buy_list.txt", "w", encoding='utf8')
@@ -58,7 +70,6 @@ try:
                     charset = 'utf8mb4')
 except:
     print("Can't connect to MySQL server. !! \n")
-
 
 
 
@@ -171,55 +182,76 @@ try:
 except:
     print("transactionSummary Table 이 이미 DB 에 존재합니다.\n")
 
+sql = ' alter table transactionsummary add unique key (cdate,mcode);';
+cur.execute(sql);
+
 ### 4-2) 종목별 거래내용 크롤링
 
 #### 종목명 --> 종목 코드로 변환
 # 종목 이름을 입력하면 종목에 해당하는 코드를 불러와
 # 네이버 금융(http://finance.naver.com)에 넣어줌
-def save_db(item_code, code_df):
-    ##code = code_df.query("mname=='{}'".format(item_name))['mcode'].to_string(index=False)
-    url = 'https://finance.naver.com/item/sise_day.nhn?code={code}'.format(code=item_code)
-    ##url = 'http://finance.naver.com/item/sise_day.nhn?code={code}'.format(code=code)
-    ##url = 'http://finance.daum.net/item/news.daum?code={code}'.format(code=code)
-
+def save_db(item_code, code_df, mode  ):
+    if mode == 'cost' :
+        url = 'https://finance.naver.com/item/sise_day.nhn?code={code}'.format(code=item_code)
+    else : ## 외국인 순매수 확인 -- mode : foreigner
+        url = 'https://finance.naver.com/item/frgn.nhn?code={code}'.format(code=item_code)
     #print("요청 URL = {}".format(url))
     # 일자 데이터를 담을 df라는 DataFrame 정의
     df = pd.DataFrame()
 
-    # 1페이지에서 20페이지의 데이터만 가져오기
+    # 1페이지에서 43페이지의 데이터만 가져오기
     for page in range(1, 43):
         pg_url = '{url}&page={page}'.format(url=url, page=page)
         #print(pg_url)
-        df = df.append(pd.read_html(pg_url, header=0)[0], ignore_index=True)
+        if mode == 'cost' :
+            df = df.append(pd.read_html(pg_url, header=0)[0], ignore_index=True)
+        else :
+            df = df.append(pd.read_html(pg_url, header=0, encoding='euc-kr')[2], ignore_index=True)
 
     # df.dropna()를 이용해 결측값 있는 행 제거
     df = df.dropna()
     # 휴장일 날을 제거
     df = df[df['거래량'] != 0]
 
-    # 한글로 된 컬럼명을 영어로 바꿔줌
-    df = df.rename(columns= {'날짜': 'cdate', '종가': 'cclose',
-                             '전일비': 'cdiff', '시가': 'copen', '고가': 'chigh', '저가': 'clow', '거래량': 'cvolume'})
-    # 데이터의 타입을 int형으로 바꿔줌
-    df[['cclose', 'cdiff', 'copen', 'chigh', 'clow', 'cvolume']] \
-        = df[['cclose', 'cdiff', 'copen', 'chigh', 'clow', 'cvolume']].astype(int)
 
-    # 컬럼명 'date'의 타입을 date로 바꿔줌
-    df['cdate'] = pd.to_datetime(df['cdate'])
+    if mode == 'cost' :
+        # 한글로 된 컬럼명을 영어로 바꿔줌
+        df = df.rename(columns= {'날짜': 'cdate', '종가': 'cclose',
+                                 '전일비': 'cdiff', '시가': 'copen', '고가': 'chigh', '저가': 'clow', '거래량': 'cvolume'})
+        # 데이터의 타입을 int형으로 바꿔줌
+        df[['cclose', 'cdiff', 'copen', 'chigh', 'clow', 'cvolume']] \
+            = df[['cclose', 'cdiff', 'copen', 'chigh', 'clow', 'cvolume']].astype(int)
 
-    # 일자(date)를 기준으로 오름차순 정렬
-    df = df.sort_values(by=['cdate'], ascending=True)
+        # 컬럼명 'date'의 타입을 date로 바꿔줌
+        df['cdate'] = pd.to_datetime(df['cdate'])
 
-    # code 삽입
-    df['mcode']=item_code
-    print(df)
+        # 일자(date)를 기준으로 오름차순 정렬
+        df = df.sort_values(by=['cdate'], ascending=True)
 
-    df.to_sql(name='transactionSummary', con=engine, if_exists='append', index=False)
-    ## try:
-    ##     df.to_sql(name='transactionSummary', con=engine, if_exists='append', index=False)
-    ## except :
-    ##     print ("%s 의 주가 정보는 이미 존재합니다. \n" %(item_code))
-    ##     f_log.write("%s 의 주가 정보는 이미 존재합니다. \n" %(item_code))
+        # code 삽입
+        df['mcode']=item_code
+        print(df)
+    elif mode == 'foreigner':
+        ## Column 제목 맞추기
+        df = df.rename(columns={'기관': '기관 순매매량', '외국인': '외국인 순매매량',
+                                'Unnamed: 7':'외국인 보유주수', 'Unnamed: 8':'외국인 보유율'})
+        df = df[['기관 순매매량', '외국인 순매매량', '외국인 보유주수', '외국인 보유율']]
+
+        ## Column 제목을 영어로 변경
+        df = df.rename(columns={'기관 순매매량': 'instit_buy', '외국인 순매매량': 'foreign_buy',
+                                '외국인 보유주수':'foreign_buy_num', '외국인 보유율':'foreign_shareholding'})
+
+        print(df)
+
+
+
+
+    ## DB 에 저장 (모드 별 동일)
+    try :
+        df.to_sql(name='transactionSummary', con=engine, if_exists='append', index=False)
+    except :
+        print ("%s 의 주가 정보는 이미 존재합니다. \n" %(item_code))
+        f_log.write("%s 의 주가 정보는 이미 존재합니다. \n" %(item_code))
 
     return url, item_code
     #return url, code
@@ -240,7 +272,8 @@ for item_code in rslt:
     #item_name = cur.execute(sql, (item_code, ))
     print(item_name)
     f_log.write("%s 의 DB 입력을 시작합니다.\n" %item_name)
-    url, mcode = save_db(item_code, kospi_stocks)
+    url, mcode = save_db(item_code, kospi_stocks, 'foreigner')
+    # url, mcode = save_db(item_code, kospi_stocks, 'cost')
     ## if test == 2 :
     ##    exit()
 
